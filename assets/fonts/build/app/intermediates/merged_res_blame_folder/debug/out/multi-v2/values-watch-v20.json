@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.morepos.momostore.app-mergeDebugResources-21:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\spMA2\\.gradle\\caches\\transforms-3\\6afa7f98c3b8fb4e0f0c61040f52ea0b\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

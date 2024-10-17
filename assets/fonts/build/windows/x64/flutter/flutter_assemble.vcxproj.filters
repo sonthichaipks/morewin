@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\citydev\git_clone\taeapp-91223\taeapp\build\windows\x64\CMakeFiles\c915c6c9fb96300b654184127137a4f1\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\citydev\git_clone\taeapp-91223\taeapp\build\windows\x64\CMakeFiles\f0dca31e6dc605b4be6458199bf4fb5a\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\citydev\git_clone\taeapp-91223\taeapp\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\citydev\git_clone\taeapp-91223\taeapp\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{16816D5D-ADFC-3BA7-9C03-5BFA016792F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

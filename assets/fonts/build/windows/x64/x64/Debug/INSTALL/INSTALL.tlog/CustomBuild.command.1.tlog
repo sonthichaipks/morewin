@@ -1,0 +1,10 @@
+^C:\CITYDEV\GIT_CLONE\TAEAPP-91223\TAEAPP\BUILD\WINDOWS\X64\CMAKEFILES\D9B949B3587420134CCF96D6DBEAB20B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

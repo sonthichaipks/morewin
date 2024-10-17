@@ -1,0 +1,10 @@
+^C:\CITYDEV\GIT_CLONE\TAEAPP-91223\TAEAPP\BUILD\WINDOWS\X64\CMAKEFILES\D9B949B3587420134CCF96D6DBEAB20B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/citydev/git_clone/taeapp-91223/taeapp/windows -BC:/citydev/git_clone/taeapp-91223/taeapp/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/citydev/git_clone/taeapp-91223/taeapp/build/windows/x64/momostore.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

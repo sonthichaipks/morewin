@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\citydev\git_clone\taeapp-91223\taeapp\build\windows\x64\CMakeFiles\d9b949b3587420134ccf96d6dbeab20b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{16816D5D-ADFC-3BA7-9C03-5BFA016792F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
