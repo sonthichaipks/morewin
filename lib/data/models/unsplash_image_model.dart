@@ -1,5 +1,5 @@
-import 'package:morewin/data/models/unsplash_image_urls_model.dart';
-import 'package:morewin/domain/entities/unsplash_image.dart';
+import 'package:com.morepos.morewin/data/models/unsplash_image_urls_model.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_image.dart';
 
 class UnsplashImageModel extends UnsplashImage {
   final String? id;

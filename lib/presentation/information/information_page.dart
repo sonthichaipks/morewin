@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/app/util/url_helper.dart';
-import 'package:morewin/presentation/widgets/common/rounded_button.dart';
+import 'package:com.morepos.morewin/app/util/url_helper.dart';
+import 'package:com.morepos.morewin/presentation/widgets/common/rounded_button.dart';
 import '../widgets/common/hero_images.dart';
 import '../widgets/common/home_background_painter.dart';
 import '../widgets/mobile/home_background_painter_for_mobile.dart';
@@ -9,7 +9,6 @@ import '../widgets/mobile/social_media_bar_for_mobile.dart';
 import 'information_controller.dart';
 import '../widgets/common/social_media_bar.dart';
 import '../widgets/common/typewriter.dart';
-
 
 class InformationPage extends GetResponsiveView<InformationController> {
   InformationPage()

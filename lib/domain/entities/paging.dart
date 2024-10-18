@@ -1,4 +1,4 @@
-import 'package:morewin/domain/entities/unsplash_search_response.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_search_response.dart';
 
 class Paging {
   Paging({

@@ -1,10 +1,10 @@
 import 'package:either_dart/either.dart';
-import 'package:morewin/data/providers/network/api_request_representable.dart';
-// import 'package:morewin/data/providers/network/apis/images_api.dart';
-// import 'package:morewin/domain/entities/medium_posts_response.dart';
-// import 'package:morewin/domain/entities/paging.dart';
-// import 'package:morewin/domain/entities/unsplash_search_response.dart';
-// import 'package:morewin/domain/repositories/images_repository.dart';
+import 'package:com.morepos.morewin/data/providers/network/api_request_representable.dart';
+// import 'package:com.morepos.morewin/data/providers/network/apis/images_api.dart';
+// import 'package:com.morepos.morewin/domain/entities/medium_posts_response.dart';
+// import 'package:com.morepos.morewin/domain/entities/paging.dart';
+// import 'package:com.morepos.morewin/domain/entities/unsplash_search_response.dart';
+// import 'package:com.morepos.morewin/domain/repositories/images_repository.dart';
 
 import '../../app/constants/route_apipath.dart';
 import '../../domain/entities/mngdb_posts_response.dart';

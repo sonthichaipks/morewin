@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:morewin/app/constants/core_package.dart';
+import 'package:com.morepos.morewin/app/constants/core_package.dart';
 
 import 'package:http/http.dart' as http;
 

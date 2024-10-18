@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:morewin/data/repositories/images_repository_impl.dart';
+import 'package:com.morepos.morewin/data/repositories/images_repository_impl.dart';
 
 import '../../data/repositories/images_repository_impl.dart';
 import '../../data/repositories/medium_posts_repository_impl.dart';

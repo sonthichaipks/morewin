@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/presentation/blog/blog_controller.dart';
-import 'package:morewin/presentation/widgets/common/loading_widget.dart';
-import 'package:morewin/presentation/widgets/common/no_post_widget.dart';
+import 'package:com.morepos.morewin/presentation/blog/blog_controller.dart';
+import 'package:com.morepos.morewin/presentation/widgets/common/loading_widget.dart';
+import 'package:com.morepos.morewin/presentation/widgets/common/no_post_widget.dart';
 
 import '../widgets/common/blog_background_painter.dart';
 import '../widgets/common/blog_post_item.dart';

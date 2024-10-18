@@ -1,8 +1,9 @@
 // import 'package:dropdown_search/dropdown_search.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/app/util/url_helper.dart';
-import 'package:morewin/presentation/widgets/common/rounded_button.dart';
+import 'package:com.morepos.morewin/app/util/url_helper.dart';
+import 'package:com.morepos.morewin/presentation/widgets/common/rounded_button.dart';
 import 'package:qr_bar_code/qr/qr.dart';
 import 'package:qr_bar_code/qr_bar_code_web.dart';
 import '../../app/constants/theme_provider.dart';
@@ -21,14 +22,49 @@ import '../widgets/common/typewriter.dart';
 import 'login_controller.dart';
 
 class LoginPage extends GetView<LoginController> {
-  LoginPage();
-  // : super(
-  //       settings: ResponsiveScreenSettings(
-  //           desktopChangePoint: 1000,
-  //           tabletChangePoint: 768,
-  //           watchChangePoint: 300));
+  LoginPage(this.selectedIndex);
+   final RxInt selectedIndex; // = 0.obs;
+  // final RxInt navBarSelectedIndex; // = 0.obs;
+ 
+ 
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
+  final formKey = GlobalKey<FormState>();
   final dropDownAprodKeySearch = GlobalKey<DropdownSearchState<PrQryTables>>();
-  // @override
+  String rightUser = '';
+
+
+  Future<void> createUserWithEmailAndPassword() async {
+    try {
+      final userCredential =
+          await FirebaseAuth.instance.createUserWithEmailAndPassword(
+        email: emailController.text.trim(),
+        password: passwordController.text.trim(),
+      );
+      rightUser = emailController.text.trim();
+      print(userCredential.user?.uid);
+    } on FirebaseAuthException catch (e) {
+      print(e.message);
+    }
+  }
+
+  Future<void> loginUserWithEmailAndPassword() async {
+    try {
+      final UserCredential = await FirebaseAuth.instance
+          .signInWithEmailAndPassword(
+              email: emailController.text.trim(),
+              password: passwordController.text.trim());
+
+      if (FirebaseAuth.instance.currentUser != null) {
+        //selectedIndex = 2.obs;
+        controller.pages[selectedIndex.value];
+      }
+      print(UserCredential);
+    } on FirebaseAuthException catch (e) {
+      print(e.message);
+    }
+  }
+
   Widget desktop(BuildContext context) {
     return Scaffold(
         body:
@@ -154,9 +190,9 @@ class LoginPage extends GetView<LoginController> {
                         height: 15,
                       ),
                       TextFormField(
-                        // controller: controller.userIdCtrl,
+                        controller: emailController,
                         decoration: InputDecoration(
-                            labelText: "User",
+                            labelText: "Email",
                             hintText: "",
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(20))),
@@ -169,11 +205,9 @@ class LoginPage extends GetView<LoginController> {
                       const SizedBox(
                         height: 15,
                       ),
-                      // (controller.mc.wifiIPv4 == null)
-                      //     ? Container()
-                      //     :
+
                       TextFormField(
-                        // controller: controller.passCodeCtrl,
+                        controller: passwordController,
                         obscureText: true,
                         // focusNode: controller.focusNode2,
                         decoration: InputDecoration(
@@ -194,43 +228,80 @@ class LoginPage extends GetView<LoginController> {
                         height: 15,
                       ),
                       // (controller.mc.wifiIPv4 == null)
-                      //     ?
-                      // TextField(
-                      //     // controller: controller.apiCodeCtrl,
-                      //     obscureText: true,
-                      //     onSubmitted: (val) {
-                      //       // controller.submitLogin();
-                      //     },
-                      //     decoration: InputDecoration(
-                      //         labelText: "API PIN",
-                      //         hintText: "***",
-                      //         border: OutlineInputBorder(
-                      //             borderRadius: BorderRadius.circular(20)))),
-                      // : Container(),
-                      const SizedBox(
-                        height: 15,
-                      ),
-                      // GradientButton(controller: controller),
+
                       const SizedBox(
                         height: 30,
                       ),
-                      const SizedBox(height: 15),
-                      Container(
-                        margin: const EdgeInsets.fromLTRB(10, 3, 3, 10),
-                        child: Column(
-                          children: [
-                            OutlinedButton(
-                              onPressed: () {
-                                // controller.mc.refreshServer(ApiPath.apiPath);
-                              },
-                              child: const Text(
-                                'SUBMIT',
-                                style: TextStyle(color: Colors.red),
-                              ),
-                            ),
-                          ],
+                      // (rightUser == emailController.text.trim())
+                      //     ?
+                      ElevatedButton(
+                        onPressed: () async {
+                          await loginUserWithEmailAndPassword();
+                        },
+                        child: const Text(
+                          'SIGN IN',
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: mng_theme.primaryColor,
+                          ),
                         ),
                       ),
+                      // : Container(),
+                      // const SizedBox(height: 15),
+                      // (rightUser == emailController.text.trim())
+                      //     ? Container()
+                      //     :
+                      ElevatedButton(
+                        onPressed: () async {
+                          await createUserWithEmailAndPassword();
+                        },
+                        child: const Text(
+                          'SIGN UP',
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: mng_theme.primaryColor,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                      GestureDetector(
+                        onTap: () {
+                          controller.pages[selectedIndex.value];
+                        },
+                        child: RichText(
+                          text: TextSpan(
+                            text: 'Already have an account? ',
+                            style: Theme.of(context).textTheme.titleMedium,
+                            children: [
+                              TextSpan(
+                                text: 'Sign In',
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .titleMedium
+                                    ?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      // Container(
+                      //   margin: const EdgeInsets.fromLTRB(10, 3, 3, 10),
+                      //   child: Column(
+                      //     children: [
+                      //       OutlinedButton(
+                      //         onPressed: () {
+                      //           // controller.mc.refreshServer(ApiPath.apiPath);
+                      //         },
+                      //         child: const Text(
+                      //           'SUBMIT',
+                      //           style: TextStyle(color: Colors.red),
+                      //         ),
+                      //       ),
+                      //     ],
+                      //   ),
+                      // ),
                       const SizedBox(
                         height: 15,
                       ),
@@ -405,10 +476,10 @@ class LoginPage extends GetView<LoginController> {
             height: Get.height,
             child: desktop(context),
           ),
-          Align(
-            alignment: Alignment.topCenter,
-            child: Navbar(),
-          ),
+          // Align(
+          //   alignment: Alignment.topCenter,
+          //   child: Navbar(),
+          // ),
         ],
       ),
     );

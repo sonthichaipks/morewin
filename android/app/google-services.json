@@ -1,9 +1,29 @@
 {
   "project_info": {
-    "project_number": "1078215756288",
-    "project_id": "morewin-1be0f",
-    "storage_bucket": "morewin-1be0f.appspot.com"
+    "project_number": "970386558463",
+    "project_id": "morewin-b80ba",
+    "storage_bucket": "morewin-b80ba.appspot.com"
   },
-  "client": [],
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970386558463:android:7a386507ac6824d9e76bca",
+        "android_client_info": {
+          "package_name": "com.morepos.morewin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxj1KTKXHPnNC5VhNraASmaHNrfg0WTy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
   "configuration_version": "1"
 }

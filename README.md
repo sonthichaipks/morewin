@@ -1,4 +1,4 @@
-# morewin
+# com.morepos.morewin
 
 A new Flutter project.
 

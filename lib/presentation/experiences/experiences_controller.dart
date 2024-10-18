@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:morewin/domain/entities/experience.dart';
+import 'package:com.morepos.morewin/domain/entities/experience.dart';
 
 import '../../app/constants/job_type.dart';
 import '../../app/constants/work_places.dart';

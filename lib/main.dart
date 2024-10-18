@@ -1,8 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:morewin/app/util/dependency.dart';
-import 'package:morewin/presentation/app.dart';
+import 'package:com.morepos.morewin/app/util/dependency.dart';
+import 'package:com.morepos.morewin/presentation/app.dart';
 
-void main() {
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   DenpendencyCreator.init();
   runApp(App());
 }

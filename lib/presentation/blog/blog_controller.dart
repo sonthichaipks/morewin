@@ -1,8 +1,8 @@
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 import 'package:either_dart/either.dart';
 import 'package:get/get.dart';
-import 'package:morewin/domain/entities/medium_posts_response.dart';
-import 'package:morewin/domain/usecases/fetch_user_posts_use_case.dart';
+import 'package:com.morepos.morewin/domain/entities/medium_posts_response.dart';
+import 'package:com.morepos.morewin/domain/usecases/fetch_user_posts_use_case.dart';
 
 import '../widgets/custom_snackbar.dart';
 

@@ -1,5 +1,5 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:morewin/data/models/mngdata/QryTables.dart';
+import 'package:com.morepos.morewin/data/models/mngdata/QryTables.dart';
 
 import '../../../app/constants/core_package.dart';
 import '../../../app/constants/theme_provider.dart';

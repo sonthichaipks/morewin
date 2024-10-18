@@ -6,12 +6,12 @@ import 'package:flick_video_player/flick_video_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:morewin/presentation/widgets/custom_snackbar.dart';
-import 'package:morewin/app/util/video_player_data_manager.dart';
-import 'package:morewin/domain/entities/unsplash_image.dart';
-import 'package:morewin/domain/entities/unsplash_image_urls.dart';
-import 'package:morewin/domain/entities/unsplash_search_response.dart';
-import 'package:morewin/domain/usecases/fetch_person_images_use_case.dart';
+import 'package:com.morepos.morewin/presentation/widgets/custom_snackbar.dart';
+import 'package:com.morepos.morewin/app/util/video_player_data_manager.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_image.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_image_urls.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_search_response.dart';
+import 'package:com.morepos.morewin/domain/usecases/fetch_person_images_use_case.dart';
 import 'package:tuple/tuple.dart';
 import 'package:video_player/video_player.dart';
 

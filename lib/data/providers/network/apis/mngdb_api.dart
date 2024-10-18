@@ -1,8 +1,8 @@
 import 'package:either_dart/either.dart';
-// import 'package:morewin/app/util/util.dart';
-import 'package:morewin/data/providers/network/api_endpoint.dart';
-import 'package:morewin/data/providers/network/api_provider.dart';
-import 'package:morewin/data/providers/network/api_request_representable.dart';
+// import 'package:com.morepos.morewin/app/util/util.dart';
+import 'package:com.morepos.morewin/data/providers/network/api_endpoint.dart';
+import 'package:com.morepos.morewin/data/providers/network/api_provider.dart';
+import 'package:com.morepos.morewin/data/providers/network/api_request_representable.dart';
 
 class MngdbAPI implements APIRequestRepresentable {
   String params;
@@ -23,7 +23,7 @@ class MngdbAPI implements APIRequestRepresentable {
   @override
   HTTPMethod get method {
     return method;
-     //HTTPMethod.get;
+    //HTTPMethod.get;
   }
 
   Map<String, String> get headers => {};

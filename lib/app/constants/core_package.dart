@@ -6,13 +6,13 @@ export 'dart:convert';
 export 'dart:async';
 
 // * Utility
-// export 'package:morewin/models/index.dart';
+// export 'package:com.morepos.morewin/models/index.dart';
 
-// export 'package:morewin/utils/route/route_page.dart';
-export 'package:morewin/app/constants/route_apipath.dart';
+// export 'package:com.morepos.morewin/utils/route/route_page.dart';
+export 'package:com.morepos.morewin/app/constants/route_apipath.dart';
 
 // * Widget
-// export 'package:morewin/widgets/button_accept.dart';
+// export 'package:com.morepos.morewin/widgets/button_accept.dart';
 
 // * Library
 // export 'package:sizer/sizer.dart'; // * easy size
@@ -20,7 +20,7 @@ export 'package:morewin/app/constants/route_apipath.dart';
 export 'package:get/get.dart'; //hide HeaderValue; // * state management
 // export 'package:qr_flutter/qr_flutter.dart';
 // Controller
-// export 'package:morewin/controllers/total_order_controller.dart';
+// export 'package:com.morepos.morewin/controllers/total_order_controller.dart';
 
 // data table
 // export 'package:data_table_2/data_table_2.dart';

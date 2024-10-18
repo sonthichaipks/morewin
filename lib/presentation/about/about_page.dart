@@ -5,8 +5,8 @@ import 'package:cached_network_image_platform_interface/cached_network_image_pla
 import 'package:flutter/material.dart';
 import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:get/get.dart';
-import 'package:morewin/presentation/about/about_controller.dart';
-import 'package:morewin/presentation/widgets/common/web_video_control.dart';
+import 'package:com.morepos.morewin/presentation/about/about_controller.dart';
+import 'package:com.morepos.morewin/presentation/widgets/common/web_video_control.dart';
 import 'package:video_player/video_player.dart';
 
 import '../information/information_controller.dart';

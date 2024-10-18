@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'package:either_dart/either.dart';
 import 'package:get/get_connect/connect.dart';
-import 'package:morewin/data/providers/network/api_request_representable.dart';
+import 'package:com.morepos.morewin/data/providers/network/api_request_representable.dart';
 
 import '../../../domain/entities/unsplash_search_response.dart';
 import 'package:http/http.dart' as http;

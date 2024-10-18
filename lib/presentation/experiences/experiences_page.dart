@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/presentation/widgets/mobile/experience_background_painter_for_mobile.dart';
+import 'package:com.morepos.morewin/presentation/widgets/mobile/experience_background_painter_for_mobile.dart';
 
 import '../widgets/common/experience_background_painter.dart';
 import '../widgets/common/experience_time_line_widget.dart';

@@ -6,7 +6,7 @@ import 'dart:async';
 // import 'package:dropdown_search/src/properties/dropdown_button_props.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:morewin/app/constants/theme_provider.dart';
+import 'package:com.morepos.morewin/app/constants/theme_provider.dart';
 
 import 'dropdown_src/dropdown_properties/clear_button_props.dart';
 import 'dropdown_src/dropdown_properties/dropdown_button_props.dart';

@@ -1,4 +1,4 @@
-import 'package:morewin/domain/entities/unsplash_image_urls.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_image_urls.dart';
 
 class UnsplashImageUrlsModel extends UnsplashImageUrls {
   String? raw;

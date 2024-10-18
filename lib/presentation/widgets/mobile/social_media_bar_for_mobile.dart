@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:morewin/app/util/url_helper.dart';
+import 'package:com.morepos.morewin/app/util/url_helper.dart';
 
 class SocialMediaBarForMobile extends StatefulWidget {
   const SocialMediaBarForMobile({Key? key}) : super(key: key);

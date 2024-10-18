@@ -1,9 +1,10 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/presentation/blog/blog_page.dart';
-import 'package:morewin/presentation/experiences/experiences_binding.dart';
-import 'package:morewin/presentation/information/information_binding.dart';
-import 'package:morewin/presentation/information/information_page.dart';
+import 'package:com.morepos.morewin/presentation/blog/blog_page.dart';
+import 'package:com.morepos.morewin/presentation/experiences/experiences_binding.dart';
+import 'package:com.morepos.morewin/presentation/information/information_binding.dart';
+import 'package:com.morepos.morewin/presentation/information/information_page.dart';
 import '../../app/constants/themes.dart';
 import '../about/about_binding.dart';
 import '../about/about_page.dart';
@@ -21,7 +22,9 @@ class HomeController extends GetxController {
   RxList<Widget> pages = [
     InformationPage(),
     AboutPage(),
-    LoginPage(), // ExperiencesPage(),
+    FirebaseAuth.instance.currentUser != null
+        ? ExperiencesPage()
+        : LoginPage(selectedIndex:selectedIndex), // ExperiencesPage(),
     ProjectsPage(),
     BlogPage()
   ].obs;
@@ -48,7 +51,9 @@ class HomeController extends GetxController {
         Get.changeTheme(Themes.themeBlackOrange);
         break;
       case 2:
-        LoginBinding().dependencies();
+        FirebaseAuth.instance.currentUser != null
+            ? ExperiencesBinding().dependencies()
+            : LoginBinding().dependencies();
         // ExperiencesBinding().dependencies();
         Get.changeTheme(Themes.themePurpleOrange);
         break;

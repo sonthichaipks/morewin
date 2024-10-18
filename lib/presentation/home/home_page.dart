@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/presentation/home/home_controller.dart';
+import 'package:com.morepos.morewin/presentation/home/home_controller.dart';
 import 'dart:html' as html;
 import '../widgets/common/nav_bar.dart';
 import '../widgets/mobile/drawer.dart';

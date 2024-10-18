@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:morewin/presentation/home/home_controller.dart';
+import 'package:com.morepos.morewin/presentation/home/home_controller.dart';
 
 class HomeBinding extends Bindings {
   @override

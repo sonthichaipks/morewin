@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:morewin/domain/entities/portfolio.dart';
+import 'package:com.morepos.morewin/domain/entities/portfolio.dart';
 
 import '../widgets/common/portfolio_widget.dart';
 

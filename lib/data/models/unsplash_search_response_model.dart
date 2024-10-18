@@ -1,5 +1,5 @@
-import 'package:morewin/data/models/unsplash_image_model.dart';
-import 'package:morewin/domain/entities/unsplash_search_response.dart';
+import 'package:com.morepos.morewin/data/models/unsplash_image_model.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_search_response.dart';
 
 class UnsplashSearchResponseModel extends UnsplashSearchResponse {
   final int? total;

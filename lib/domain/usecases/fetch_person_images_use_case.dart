@@ -1,8 +1,8 @@
 import 'package:either_dart/either.dart';
-import 'package:morewin/app/core/usecases/pram_usecase.dart';
-import 'package:morewin/domain/entities/paging.dart';
-import 'package:morewin/domain/entities/unsplash_search_response.dart';
-import 'package:morewin/domain/repositories/images_repository.dart';
+import 'package:com.morepos.morewin/app/core/usecases/pram_usecase.dart';
+import 'package:com.morepos.morewin/domain/entities/paging.dart';
+import 'package:com.morepos.morewin/domain/entities/unsplash_search_response.dart';
+import 'package:com.morepos.morewin/domain/repositories/images_repository.dart';
 import 'package:tuple/tuple.dart';
 
 class FetchPersonImagesUseCase extends ParamUseCase<

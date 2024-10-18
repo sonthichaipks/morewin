@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/app/constants/job_type.dart';
-import 'package:morewin/app/constants/work_places.dart';
+import 'package:com.morepos.morewin/app/constants/job_type.dart';
+import 'package:com.morepos.morewin/app/constants/work_places.dart';
 
-import 'package:morewin/domain/entities/experience.dart';
+import 'package:com.morepos.morewin/domain/entities/experience.dart';
 import 'curve_line_painter.dart';
 import 'experience_card_painter.dart';
 

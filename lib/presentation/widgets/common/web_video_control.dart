@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flick_video_player/flick_video_player.dart';
-import 'package:morewin/app/util/video_player_data_manager.dart';
+import 'package:com.morepos.morewin/app/util/video_player_data_manager.dart';
 import 'package:provider/provider.dart';
 
 /// Default portrait controls.

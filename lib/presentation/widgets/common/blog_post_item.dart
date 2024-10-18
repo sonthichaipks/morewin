@@ -2,8 +2,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'package:morewin/domain/entities/medium_post_item.dart';
-import 'package:morewin/presentation/widgets/common/rounded_button_with_icon.dart';
+import 'package:com.morepos.morewin/domain/entities/medium_post_item.dart';
+import 'package:com.morepos.morewin/presentation/widgets/common/rounded_button_with_icon.dart';
 
 import '../../../app/util/url_helper.dart';
 

@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:morewin/domain/usecases/fetch_user_posts_use_case.dart';
+import 'package:com.morepos.morewin/domain/usecases/fetch_user_posts_use_case.dart';
 
 import '../../data/repositories/medium_posts_repository_impl.dart';
 import 'blog_controller.dart';

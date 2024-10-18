@@ -1,5 +1,5 @@
-import 'package:morewin/app/constants/core_package.dart';
-// import 'package:morewin/utils/core_package.dart';
+import 'package:com.morepos.morewin/app/constants/core_package.dart';
+// import 'package:com.morepos.morewin/utils/core_package.dart';
 
 final oCc1 = NumberFormat("###0", "en_US");
 final oCcy = NumberFormat("#,##0.00", "en_US");

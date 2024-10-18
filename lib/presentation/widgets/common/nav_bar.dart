@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:morewin/app/util/url_helper.dart';
-import 'package:morewin/presentation/home/home_controller.dart';
-import 'package:morewin/presentation/widgets/common/rounded_button.dart';
+import 'package:com.morepos.morewin/app/util/url_helper.dart';
+import 'package:com.morepos.morewin/presentation/home/home_controller.dart';
+import 'package:com.morepos.morewin/presentation/widgets/common/rounded_button.dart';
 
-import 'package:morewin/app/util/styles.dart';
+import 'package:com.morepos.morewin/app/util/styles.dart';
 
 class Navbar extends GetResponsiveView<HomeController> {
   Navbar()
