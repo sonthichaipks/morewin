@@ -1,0 +1,10 @@
+^C:\MOREPOS\GITHUB\MOREWIN\MOREWIN\BUILD\WINDOWS\X64\CMAKEFILES\73295E481C5C5CB8A2B27AFF8ECBD253\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/morepos/github/morewin/morewin/windows -BC:/morepos/github/morewin/morewin/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/morepos/github/morewin/morewin/build/windows/x64/morewin.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

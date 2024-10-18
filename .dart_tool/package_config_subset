@@ -146,6 +146,18 @@ file
 3.0
 file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/file-7.0.1/
 file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/file-7.0.1/lib/
+firebase_core
+3.2
+file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-3.6.0/
+file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-3.6.0/lib/
+firebase_core_platform_interface
+3.2
+file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_platform_interface-5.3.0/
+file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_platform_interface-5.3.0/lib/
+firebase_core_web
+3.4
+file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_web-2.18.1/
+file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_web-2.18.1/lib/
 fixnum
 2.19
 file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/fixnum-1.1.0/
@@ -648,6 +660,6 @@ file:///C:/flutter/packages/flutter_web_plugins/
 file:///C:/flutter/packages/flutter_web_plugins/lib/
 morewin
 3.5
-file:///C:/morepos/morewin/
-file:///C:/morepos/morewin/lib/
+file:///C:/morepos/github/morewin/morewin/
+file:///C:/morepos/github/morewin/morewin/lib/
 2

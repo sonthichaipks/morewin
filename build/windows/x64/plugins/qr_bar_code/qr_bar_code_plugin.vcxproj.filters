@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\qr_bar_code\windows\qr_bar_code_plugin_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\qr_bar_code\windows\qr_bar_code_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\qr_bar_code\windows\include\qr_bar_code\qr_bar_code_plugin_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\qr_bar_code\windows\qr_bar_code_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\qr_bar_code\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7E944485-DC79-34B1-96B4-95EC8A38B837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CA974021-6834-3CEF-BCA0-EB7346F732DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

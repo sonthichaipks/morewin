@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\flutter_inappwebview_windows_plugin_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\flutter_inappwebview_windows_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\channel_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\url_request.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\navigation_action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_resource_error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_resource_request.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_resource_response.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_history.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_history_item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\content_world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\user_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\plugin_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\size_2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\screenshot_configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\create_window_action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\new_window_requested_args.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\window_features.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\ssl_certificate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\permission_response.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\custom_scheme_response.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\custom_scheme_registration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\custom_platform_view.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\texture_bridge.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\graphics_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\util\direct3d11.interop.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\util\rohelper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\util\string_converter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\plugin_scripts_js\javascript_bridge_js.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment_channel_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\user_content_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\in_app_webview_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\in_app_webview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\in_app_webview_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\webview_channel_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\headless_in_app_webview\headless_in_app_webview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\headless_in_app_webview\headless_in_app_webview_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\headless_in_app_webview\headless_webview_channel_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser_channel_delegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\cookie_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\texture_bridge_gpu.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\include\flutter_inappwebview_windows\flutter_inappwebview_windows_plugin_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\flutter_inappwebview_windows_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\strconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\flutter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\utils\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\channel_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\base_callback_result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\url_request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\navigation_action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_resource_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_resource_request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_resource_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_history.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\web_history_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\content_world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\user_script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\plugin_script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\size_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\callbacks_complete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\screenshot_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\create_window_action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\new_window_requested_args.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\window_features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\ssl_certificate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\permission_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\custom_scheme_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\types\custom_scheme_registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\custom_platform_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\texture_bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\graphics_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\util\direct3d11.interop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\util\rohelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\util\string_converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\util\swizzle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\plugin_scripts_js\plugin_scripts_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\plugin_scripts_js\javascript_bridge_js.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\webview_environment\webview_environment_channel_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\user_content_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\in_app_webview_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\in_app_webview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\in_app_webview_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_webview\webview_channel_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\headless_in_app_webview\headless_in_app_webview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\headless_in_app_webview\headless_in_app_webview_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\headless_in_app_webview\headless_webview_channel_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\in_app_browser\in_app_browser_channel_delegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\cookie_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\custom_platform_view\texture_bridge_gpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\morepos\github\morewin\morewin\windows\flutter\ephemeral\.plugin_symlinks\flutter_inappwebview_windows\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7E944485-DC79-34B1-96B4-95EC8A38B837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CA974021-6834-3CEF-BCA0-EB7346F732DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
