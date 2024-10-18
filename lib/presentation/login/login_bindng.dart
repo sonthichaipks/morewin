@@ -1,3 +1,4 @@
+import 'package:com.morepos.morewin/presentation/home/home_controller.dart';
 import 'package:get/get.dart';
 // import 'package:com.morepos.morewin/domain/usecases/mng_db_use_case.dart';
 
@@ -16,6 +17,10 @@ class LoginBinding extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut(() => FetchMngdbUseCase(Get.find<MngdbRepositoryIml>()));
+    //  Get.lazyPut<PrPoController>(() => PrPoController());
+
+    // Get.lazyPut<HomeController>(() => HomeController());
+    // Get.put(HomeController());
     Get.put(LoginController());
   }
 }

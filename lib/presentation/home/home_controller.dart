@@ -3,18 +3,25 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:com.morepos.morewin/presentation/blog/blog_page.dart';
 import 'package:com.morepos.morewin/presentation/experiences/experiences_binding.dart';
-import 'package:com.morepos.morewin/presentation/information/information_binding.dart';
+// import 'package:com.morepos.morewin/presentation/information/information_binding.dart';
 import 'package:com.morepos.morewin/presentation/information/information_page.dart';
+// import '../../app/constants/themes.dart';
+// import '../about/about_binding.dart';
 import '../../app/constants/themes.dart';
 import '../about/about_binding.dart';
 import '../about/about_page.dart';
+// import '../blog/blog_binding.dart';
 import '../blog/blog_binding.dart';
 import '../experiences/experiences_page.dart';
+import '../information/information_binding.dart';
 import '../information/information_controller.dart';
 import '../login/login_bindng.dart';
 import '../login/login_pages.dart';
 import '../projects/projects_page.dart';
 import '../projects/projets_binding.dart';
+import '../route/routes_controller.dart';
+import 'home_binding.dart';
+// import '../projects/projets_binding.dart';
 
 class HomeController extends GetxController {
   RxInt selectedIndex = 0.obs;
@@ -24,7 +31,7 @@ class HomeController extends GetxController {
     AboutPage(),
     FirebaseAuth.instance.currentUser != null
         ? ExperiencesPage()
-        : LoginPage(selectedIndex:selectedIndex), // ExperiencesPage(),
+        : LoginPage(), // ExperiencesPage(),
     ProjectsPage(),
     BlogPage()
   ].obs;
@@ -40,30 +47,43 @@ class HomeController extends GetxController {
     'Help',
   ];
 
-  void onIndexChanged() {
+  void onIndexChanged(RxInt _selectedIndex) {
+    selectedIndex = _selectedIndex;
     switch (selectedIndex.value) {
       case 0:
-        InformationBinding().dependencies();
+        HomeBinding().dependencies();
+        Get.toNamed(Routes.homepage);
         Get.changeTheme(Themes.themeBlueOrange);
         break;
       case 1:
         AboutBinding().dependencies();
+
         Get.changeTheme(Themes.themeBlackOrange);
+        Get.toNamed(Routes.about);
         break;
       case 2:
-        FirebaseAuth.instance.currentUser != null
-            ? ExperiencesBinding().dependencies()
-            : LoginBinding().dependencies();
-        // ExperiencesBinding().dependencies();
+        ExperiencesBinding().dependencies();
+
         Get.changeTheme(Themes.themePurpleOrange);
+        FirebaseAuth.instance.currentUser != null
+            ? Get.toNamed(Routes.experience)
+            : Get.toNamed(Routes.loginpage);
         break;
       case 3:
         ProjectsBinding().dependencies();
+
         Get.changeTheme(Themes.themeOrangeOrange);
+        FirebaseAuth.instance.currentUser != null
+            ? Get.toNamed(Routes.project)
+            : Get.toNamed(Routes.loginpage);
         break;
       case 4:
         BlogBinding().dependencies();
+
         Get.changeTheme(Themes.themeBlackOrange);
+        FirebaseAuth.instance.currentUser != null
+            ? Get.toNamed(Routes.blog)
+            : Get.toNamed(Routes.loginpage);
         break;
     }
   }
@@ -76,7 +96,7 @@ class HomeController extends GetxController {
 
   onNavbarItemSelected(int v) {
     selectedIndex.value = v;
-    onIndexChanged();
+    onIndexChanged(selectedIndex);
     update();
   }
 

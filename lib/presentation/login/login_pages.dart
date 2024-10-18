@@ -9,6 +9,7 @@ import 'package:qr_bar_code/qr_bar_code_web.dart';
 import '../../app/constants/theme_provider.dart';
 import '../../data/models/mngdata/QryTables.dart';
 import '../blog/blog_controller.dart';
+import '../home/home_controller.dart';
 import '../widgets/common/dropdown_template.dart';
 import '../widgets/common/hero_images.dart';
 import '../widgets/common/home_background_painter.dart';
@@ -22,17 +23,15 @@ import '../widgets/common/typewriter.dart';
 import 'login_controller.dart';
 
 class LoginPage extends GetView<LoginController> {
-  LoginPage(this.selectedIndex);
-   final RxInt selectedIndex; // = 0.obs;
+  LoginPage();
+  //  final RxInt selectedIndex; // = 0.obs;
   // final RxInt navBarSelectedIndex; // = 0.obs;
- 
- 
+  // final HomeController navCtrl = Get.find();
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   final formKey = GlobalKey<FormState>();
   final dropDownAprodKeySearch = GlobalKey<DropdownSearchState<PrQryTables>>();
   String rightUser = '';
-
 
   Future<void> createUserWithEmailAndPassword() async {
     try {
@@ -56,8 +55,9 @@ class LoginPage extends GetView<LoginController> {
               password: passwordController.text.trim());
 
       if (FirebaseAuth.instance.currentUser != null) {
-        //selectedIndex = 2.obs;
-        controller.pages[selectedIndex.value];
+        controller.navCtrl.selectedIndex.value = 1;
+        controller.navCtrl.onIndexChanged(controller.navCtrl.selectedIndex);
+        // controller.update();
       }
       print(UserCredential);
     } on FirebaseAuthException catch (e) {
@@ -266,7 +266,7 @@ class LoginPage extends GetView<LoginController> {
                       const SizedBox(height: 20),
                       GestureDetector(
                         onTap: () {
-                          controller.pages[selectedIndex.value];
+                          // controller.pages[selectedIndex.value];
                         },
                         child: RichText(
                           text: TextSpan(

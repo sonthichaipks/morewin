@@ -82,10 +82,13 @@ class Navbar extends GetResponsiveView<HomeController> {
                           case 'Help':
                             break;
                           default:
+                            controller.selectedIndex.value =
+                                controller.items.indexOf(item);
+
                             controller.navBarSelectedIndex.value =
                                 controller.items.indexOf(item);
-                            controller.onNavbarItemSelected(
-                                controller.navBarSelectedIndex.toInt());
+
+                            controller.onIndexChanged(controller.selectedIndex);
                             controller.update();
                             break;
                         }

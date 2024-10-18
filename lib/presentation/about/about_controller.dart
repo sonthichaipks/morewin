@@ -9,7 +9,7 @@ import 'package:get/get.dart';
 import 'package:com.morepos.morewin/presentation/widgets/custom_snackbar.dart';
 import 'package:com.morepos.morewin/app/util/video_player_data_manager.dart';
 import 'package:com.morepos.morewin/domain/entities/unsplash_image.dart';
-import 'package:com.morepos.morewin/domain/entities/unsplash_image_urls.dart';
+// import 'package:com.morepos.morewin/domain/entities/unsplash_image_urls.dart';
 import 'package:com.morepos.morewin/domain/entities/unsplash_search_response.dart';
 import 'package:com.morepos.morewin/domain/usecases/fetch_person_images_use_case.dart';
 import 'package:tuple/tuple.dart';
@@ -17,7 +17,7 @@ import 'package:video_player/video_player.dart';
 
 class AboutController extends GetxController with GetTickerProviderStateMixin {
   AboutController(this._fetchPersonImagesUseCase);
-
+  // AboutController();
   RxBool helloSeen = false.obs;
   RxBool nameSeen = false.obs;
   RxBool positionSeen = false.obs;
