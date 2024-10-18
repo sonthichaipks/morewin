@@ -1,0 +1,24 @@
+[debug] [2024-10-18T04:38:33.910Z] ----------------------------------------------------------------------
+[debug] [2024-10-18T04:38:33.913Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\spma2\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create android morewin (android) --package-name=1:1078215756288:android:2284f18252e88ef7eca6e5 --json --project=morewin-1be0f
+[debug] [2024-10-18T04:38:33.913Z] CLI Version:   13.22.1
+[debug] [2024-10-18T04:38:33.913Z] Platform:      win32
+[debug] [2024-10-18T04:38:33.913Z] Node Version:  v20.18.0
+[debug] [2024-10-18T04:38:33.913Z] Time:          Fri Oct 18 2024 11:38:33 GMT+0700 (เวลาอินโดจีน)
+[debug] [2024-10-18T04:38:33.914Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-18T04:38:33.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-18T04:38:33.919Z] > authorizing via signed-in user (pks.sonthichai@gmail.com)
+[info] Create your ANDROID app in project morewin-1be0f:
+[debug] [2024-10-18T04:38:33.922Z] Checked if tokens are valid: true, expires at: 1729229509123
+[debug] [2024-10-18T04:38:33.922Z] Checked if tokens are valid: true, expires at: 1729229509123
+[debug] [2024-10-18T04:38:33.923Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/morewin-1be0f/androidApps [none]
+[debug] [2024-10-18T04:38:33.923Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/morewin-1be0f/androidApps {"displayName":"morewin (android)","packageName":"1:1078215756288:android:2284f18252e88ef7eca6e5"}
+[debug] [2024-10-18T04:38:34.268Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/morewin-1be0f/androidApps 400
+[debug] [2024-10-18T04:38:34.268Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/morewin-1be0f/androidApps {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2024-10-18T04:38:34.268Z] HTTP Error: 400, Request contains an invalid argument.
+[debug] [2024-10-18T04:38:34.369Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\spma2\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\spma2\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create Android app for project morewin-1be0f. See firebase-debug.log for more info.
