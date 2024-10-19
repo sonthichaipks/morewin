@@ -1,8 +1,16 @@
-2024/10/18-20:33:57.657 3b14 Reusing MANIFEST C:\Users\spMA2\AppData\Local\Temp\flutter_tools.4a5ce6f3\flutter_tools_chrome_device.9df04088\Default\shared_proto_db/MANIFEST-000001
-2024/10/18-20:33:57.658 3b14 Recovering log #16
-2024/10/18-20:33:57.659 3b14 Reusing old log C:\Users\spMA2\AppData\Local\Temp\flutter_tools.4a5ce6f3\flutter_tools_chrome_device.9df04088\Default\shared_proto_db/000016.log 
-2024/10/18-20:33:57.660 3b14 Delete type=0 #3
-2024/10/18-20:33:57.660 3b14 Delete type=0 #4
-2024/10/18-20:33:57.660 3b14 Delete type=0 #7
-2024/10/18-20:33:57.660 3b14 Delete type=0 #10
-2024/10/18-20:33:57.660 3b14 Delete type=0 #13
+2024/10/19-07:10:04.635 3198 Reusing MANIFEST C:\Users\spMA2\AppData\Local\Temp\flutter_tools.7a3e3e87\flutter_tools_chrome_device.7eff0f81\Default\shared_proto_db/MANIFEST-000001
+2024/10/19-07:10:04.636 3198 Recovering log #19
+2024/10/19-07:10:04.638 3198 Reusing old log C:\Users\spMA2\AppData\Local\Temp\flutter_tools.7a3e3e87\flutter_tools_chrome_device.7eff0f81\Default\shared_proto_db/000019.log 
+2024/10/19-07:10:04.639 3198 Delete type=0 #3
+2024/10/19-07:10:04.639 3198 Delete type=0 #4
+2024/10/19-07:10:04.639 3198 Delete type=0 #7
+2024/10/19-07:10:04.639 3198 Delete type=2 #8
+2024/10/19-07:10:04.639 3198 Delete type=0 #10
+2024/10/19-07:10:04.639 3198 Delete type=2 #11
+2024/10/19-07:10:04.639 3198 Delete type=0 #13
+2024/10/19-07:10:04.639 3198 Delete type=2 #14
+2024/10/19-07:10:04.640 3198 Delete type=0 #16
+2024/10/19-07:10:04.640 3198 Delete type=2 #17
+2024/10/19-07:10:30.318 1fe0 Level-0 table #24: started
+2024/10/19-07:10:30.322 1fe0 Level-0 table #24: 137428 bytes OK
+2024/10/19-07:10:30.324 1fe0 Delete type=0 #19

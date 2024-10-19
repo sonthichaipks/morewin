@@ -26,12 +26,21 @@ import 'home_binding.dart';
 class HomeController extends GetxController {
   RxInt selectedIndex = 0.obs;
   RxInt navBarSelectedIndex = 0.obs;
+
+  RxBool helloSeen = false.obs;
+  RxBool nameSeen = false.obs;
+  RxBool positionSeen = false.obs;
+  RxBool abstractSeen = false.obs;
+  RxBool showName = false.obs;
+  RxBool showPosition = false.obs;
+  RxBool showAbstract = false.obs;
+  RxBool showHireMe = false.obs;
+  RxBool hovered = false.obs;
+
   RxList<Widget> pages = [
     InformationPage(),
     AboutPage(),
-    FirebaseAuth.instance.currentUser != null
-        ? ExperiencesPage()
-        : LoginPage(), // ExperiencesPage(),
+    FirebaseAuth.instance.currentUser != null ? ExperiencesPage() : LoginPage(),
     ProjectsPage(),
     BlogPage()
   ].obs;
@@ -51,9 +60,10 @@ class HomeController extends GetxController {
     selectedIndex = _selectedIndex;
     switch (selectedIndex.value) {
       case 0:
+        Get.changeTheme(Themes.themeBlueOrange);
         HomeBinding().dependencies();
         Get.toNamed(Routes.homepage);
-        Get.changeTheme(Themes.themeBlueOrange);
+
         break;
       case 1:
         AboutBinding().dependencies();
@@ -62,12 +72,7 @@ class HomeController extends GetxController {
         Get.toNamed(Routes.about);
         break;
       case 2:
-        ExperiencesBinding().dependencies();
-
-        Get.changeTheme(Themes.themePurpleOrange);
-        FirebaseAuth.instance.currentUser != null
-            ? Get.toNamed(Routes.experience)
-            : Get.toNamed(Routes.loginpage);
+        goToExperience();
         break;
       case 3:
         ProjectsBinding().dependencies();
@@ -85,6 +90,19 @@ class HomeController extends GetxController {
             ? Get.toNamed(Routes.blog)
             : Get.toNamed(Routes.loginpage);
         break;
+    }
+  }
+
+  goToExperience() {
+    try {
+      // ExperiencesBinding().dependencies();
+
+      Get.changeTheme(Themes.themePurpleOrange);
+      FirebaseAuth.instance.currentUser != null
+          ? Get.toNamed(Routes.loginpage)
+          : Get.toNamed(Routes.experience);
+    } on FirebaseException {
+      Get.toNamed(Routes.loginpage);
     }
   }
 

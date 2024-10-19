@@ -55,7 +55,7 @@ class LoginPage extends GetView<LoginController> {
               password: passwordController.text.trim());
 
       if (FirebaseAuth.instance.currentUser != null) {
-        controller.navCtrl.selectedIndex.value = 1;
+        controller.navCtrl.selectedIndex.value = 0;
         controller.navCtrl.onIndexChanged(controller.navCtrl.selectedIndex);
         // controller.update();
       }
