@@ -134,6 +134,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "cloud_firestore",
+      "rootUri": "file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore-5.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore_platform_interface-6.4.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore_web-4.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "code_builder",
       "rootUri": "file:///C:/Users/spMA2/AppData/Local/Pub/Cache/hosted/pub.dev/code_builder-4.10.0",
       "packageUri": "lib/",
@@ -1022,7 +1040,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-10-18T06:59:16.015030Z",
+  "generated": "2024-10-19T00:39:06.143826Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///C:/flutter",
