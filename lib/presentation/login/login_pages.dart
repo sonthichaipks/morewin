@@ -17,55 +17,50 @@ import '../widgets/common/nav_bar.dart';
 import '../widgets/dropdown_search.dart';
 import '../widgets/mobile/home_background_painter_for_mobile.dart';
 import '../widgets/mobile/social_media_bar_for_mobile.dart';
-// import 'information_controller.dart';
+// import 'information_c.dart';
 import '../widgets/common/social_media_bar.dart';
 import '../widgets/common/typewriter.dart';
 import 'login_controller.dart';
 
 class LoginPage extends GetView<LoginController> {
-  LoginPage();
-  //  final RxInt selectedIndex; // = 0.obs;
-  // final RxInt navBarSelectedIndex; // = 0.obs;
-  // final HomeController navCtrl = Get.find();
-  final emailController = TextEditingController();
-  final passwordController = TextEditingController();
+  LoginPage({super.key});
+
   final formKey = GlobalKey<FormState>();
   final dropDownAprodKeySearch = GlobalKey<DropdownSearchState<PrQryTables>>();
-  String rightUser = '';
-
-  Future<void> createUserWithEmailAndPassword() async {
-    try {
-      final userCredential =
-          await FirebaseAuth.instance.createUserWithEmailAndPassword(
-        email: emailController.text.trim(),
-        password: passwordController.text.trim(),
-      );
-      rightUser = emailController.text.trim();
-      print(userCredential.user?.uid);
-    } on FirebaseAuthException catch (e) {
-      print(e.message);
-    }
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+            appBar: null,
+            body: GetBuilder<LoginController>(
+                initState: controller.init(context),
+                init: controller,
+                builder: (context) {
+                  return desktop(controller);
+                })));
   }
+  // @override
+  // Widget build(BuildContext context) {
+  //   // TODO: implement build
 
-  Future<void> loginUserWithEmailAndPassword() async {
-    try {
-      final UserCredential = await FirebaseAuth.instance
-          .signInWithEmailAndPassword(
-              email: emailController.text.trim(),
-              password: passwordController.text.trim());
-
-      if (FirebaseAuth.instance.currentUser != null) {
-        controller.navCtrl.selectedIndex.value = 0;
-        controller.navCtrl.onIndexChanged(controller.navCtrl.selectedIndex);
-        // controller.update();
-      }
-      print(UserCredential);
-    } on FirebaseAuthException catch (e) {
-      print(e.message);
-    }
-  }
-
-  Widget desktop(BuildContext context) {
+  //   return Scaffold(
+  //     body: Stack(
+  //       children: [
+  //         SizedBox(
+  //           width: Get.width,
+  //           height: Get.height,
+  //           child: desktop(context),
+  //         ),
+  //         // Align(
+  //         //   alignment: Alignment.topCenter,
+  //         //   child: Navbar(),
+  //         // ),
+  //       ],
+  //     ),
+  //   );
+  // }
+  Widget desktop(LoginController c) {
     return Scaffold(
         body:
             // Obx(() =>
@@ -93,7 +88,7 @@ class LoginPage extends GetView<LoginController> {
                       DropdownSearch<PrQryTables>.multiSelection(
                         key: dropDownAprodKeySearch,
                         asyncItems: ((String? filter) {
-                          return controller.getAboutProductTablesWith(
+                          return c.getAboutProductTablesWith(
                               ((filter!.isEmpty)) ? 'xxx' : filter!);
                         }),
                         clearButtonProps: ClearButtonProps(
@@ -110,7 +105,7 @@ class LoginPage extends GetView<LoginController> {
                           showSearchBox: true,
                           searchFieldProps: TextFieldProps(
                             textAlign: TextAlign.center,
-                            // controller: controller.edtSku,
+                            // controller: c.edtSku,
                             decoration: InputDecoration(
                               icon: null,
                               iconColor: mng_theme.secondaryColor,
@@ -120,8 +115,8 @@ class LoginPage extends GetView<LoginController> {
                                 color: mng_theme.secondaryColor,
                                 icon: Icon(Icons.balcony),
                                 onPressed: () {
-                                  // controller.edtSku.text = '';
-                                  // controller.update();
+                                  // c.edtSku.text = '';
+                                  // c.update();
                                 },
                               ),
                             ),
@@ -149,16 +144,6 @@ class LoginPage extends GetView<LoginController> {
                         dropdownBuilder: SelectionAPOfdropdown,
                         onChanged: (selectedValue) async {
                           selectedValue.clear();
-                          //  if (selectedValue.isNotEmpty) {
-                          //    controller.getAboutProduct(selectedValue.first);
-                          //  }
-                          // try {
-                          //   controller.sku = selectedValue.first.code.split(',')[1];
-                          // } catch (e) {
-                          //   controller.sku = (controller.edtSku.text.isEmpty)
-                          //       ? 'xxx'
-                          //       : controller.edtSku.text;
-                          // }
                         },
                       ),
 
@@ -177,20 +162,12 @@ class LoginPage extends GetView<LoginController> {
                       const SizedBox(
                         height: 10,
                       ),
-                      // const Row(
-                      //   children: [
-                      //     CustomText(
-                      //       text:
-                      //           "Welcome back to the management system",
-                      //       color: lightGrey,
-                      //     ),
-                      //   ],
-                      // ),
+
                       const SizedBox(
                         height: 15,
                       ),
                       TextFormField(
-                        controller: emailController,
+                        controller: c.emailController,
                         decoration: InputDecoration(
                             labelText: "Email",
                             hintText: "",
@@ -200,16 +177,16 @@ class LoginPage extends GetView<LoginController> {
                         keyboardType: TextInputType.name,
                         textInputAction: TextInputAction.next,
 
-                        // onEditingComplete: () => controller.focusNode2.requestFocus(),
+                        // onEditingComplete: () => c.focusNode2.requestFocus(),
                       ),
                       const SizedBox(
                         height: 15,
                       ),
 
                       TextFormField(
-                        controller: passwordController,
+                        controller: c.passwordController,
                         obscureText: true,
-                        // focusNode: controller.focusNode2,
+                        // focusNode: c.focusNode2,
                         decoration: InputDecoration(
                             labelText: "Password",
                             hintText: "",
@@ -219,7 +196,7 @@ class LoginPage extends GetView<LoginController> {
                         keyboardType: TextInputType.name,
                         textInputAction: TextInputAction.next,
 
-                        // onEditingComplete: () => controller.submitLogin(),
+                        // onEditingComplete: () => c.submitLogin(),
                       ),
                       const SizedBox(
                         height: 15,
@@ -227,55 +204,64 @@ class LoginPage extends GetView<LoginController> {
                       const SizedBox(
                         height: 15,
                       ),
-                      // (controller.mc.wifiIPv4 == null)
 
                       const SizedBox(
                         height: 30,
                       ),
-                      // (rightUser == emailController.text.trim())
-                      //     ?
-                      ElevatedButton(
-                        onPressed: () async {
-                          await loginUserWithEmailAndPassword();
-                        },
-                        child: const Text(
-                          'SIGN IN',
-                          style: TextStyle(
-                            fontSize: 16,
-                            color: mng_theme.primaryColor,
-                          ),
-                        ),
+
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          (c.rightUser == '' || c.rightUser == '1')
+                              ? ElevatedButton(
+                                  onPressed: () async {
+                                    await controller
+                                        .loginUserWithEmailAndPassword();
+                                  },
+                                  child: const Text(
+                                    'SIGN IN',
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: mng_theme.primaryColor,
+                                    ),
+                                  ),
+                                )
+                              : Container(),
+                          (c.rightUser == '' || c.rightUser == '0')
+                              ? ElevatedButton(
+                                  onPressed: () async {
+                                    await controller
+                                        .createUserWithEmailAndPassword();
+                                  },
+                                  child: const Text(
+                                    'SIGN UP',
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: mng_theme.primaryColor,
+                                    ),
+                                  ),
+                                )
+                              : Container(),
+                        ],
                       ),
-                      // : Container(),
-                      // const SizedBox(height: 15),
-                      // (rightUser == emailController.text.trim())
-                      //     ? Container()
-                      //     :
-                      ElevatedButton(
-                        onPressed: () async {
-                          await createUserWithEmailAndPassword();
-                        },
-                        child: const Text(
-                          'SIGN UP',
-                          style: TextStyle(
-                            fontSize: 16,
-                            color: mng_theme.primaryColor,
-                          ),
-                        ),
-                      ),
+
                       const SizedBox(height: 20),
                       GestureDetector(
-                        onTap: () {
-                          // controller.pages[selectedIndex.value];
+                        onTap: () async {
+                          await controller.createUserWithEmailAndPassword();
                         },
                         child: RichText(
                           text: TextSpan(
-                            text: 'Already have an account? ',
-                            style: Theme.of(context).textTheme.titleMedium,
+                            text: (c.rightUser == '')
+                                ? 'Already have an account? '
+                                : c.rightUser,
+                            style: Theme.of(c.tcontext).textTheme.titleMedium,
                             children: [
                               TextSpan(
-                                text: 'Sign In',
-                                style: Theme.of(context)
+                                text: (c.rightUser == '')
+                                    ? 'Please sign In'
+                                    : ' SIGNUP by click here!',
+                                style: Theme.of(c.tcontext)
                                     .textTheme
                                     .titleMedium
                                     ?.copyWith(
@@ -292,7 +278,7 @@ class LoginPage extends GetView<LoginController> {
                       //     children: [
                       //       OutlinedButton(
                       //         onPressed: () {
-                      //           // controller.mc.refreshServer(ApiPath.apiPath);
+                      //           // c.mc.refreshServer(ApiPath.apiPath);
                       //         },
                       //         child: const Text(
                       //           'SUBMIT',
@@ -361,7 +347,7 @@ class LoginPage extends GetView<LoginController> {
                       //           children: [
                       //             Typewriter(
                       //               'Welcome to',
-                      //               animate: !controller.helloSeen.value,
+                      //               animate: !c.helloSeen.value,
                       //               textStyle: TextStyle(
                       //                 color: Colors.lightBlue,
                       //                 fontSize: 24,
@@ -369,53 +355,53 @@ class LoginPage extends GetView<LoginController> {
                       //                 letterSpacing: 1.4,
                       //               ),
                       //               onEnd: () {
-                      //                 controller.showName.value = true;
-                      //                 controller.helloSeen.value = true;
-                      //                 controller.update();
+                      //                 c.showName.value = true;
+                      //                 c.helloSeen.value = true;
+                      //                 c.update();
                       //               },
                       //             ),
-                      //             if (controller.showName.value) ...[
+                      //             if (c.showName.value) ...[
                       //               SizedBox(height: 16),
                       //               Typewriter(
                       //                 'Morepos Store',
-                      //                 animate: !controller.nameSeen.value,
+                      //                 animate: !c.nameSeen.value,
                       //                 textStyle: TextStyle(
                       //                   color: Colors.blueGrey[900],
                       //                   fontSize: 40,
                       //                   fontWeight: FontWeight.w700,
                       //                 ),
                       //                 onEnd: () {
-                      //                   controller.showPosition.value = true;
-                      //                   controller.nameSeen.value = true;
+                      //                   c.showPosition.value = true;
+                      //                   c.nameSeen.value = true;
 
-                      //                   controller.update();
+                      //                   c.update();
                       //                 },
                       //               ),
                       //             ],
-                      //             if (controller.showPosition.value) ...[
+                      //             if (c.showPosition.value) ...[
                       //               SizedBox(height: 16),
                       //               Typewriter(
                       //                 'Super store to anyone who is member',
-                      //                 animate: !controller.positionSeen.value,
+                      //                 animate: !c.positionSeen.value,
                       //                 textStyle: TextStyle(
                       //                   color: Colors.blueGrey[900],
                       //                   fontSize: 20,
                       //                   fontWeight: FontWeight.w500,
                       //                 ),
                       //                 onEnd: () {
-                      //                   controller.showAbstract.value = true;
-                      //                   controller.positionSeen.value = true;
-                      //                   controller.update();
+                      //                   c.showAbstract.value = true;
+                      //                   c.positionSeen.value = true;
+                      //                   c.update();
                       //                 },
                       //               ),
                       //             ],
-                      //             if (controller.showAbstract.value) ...[
+                      //             if (c.showAbstract.value) ...[
                       //               SizedBox(height: 24),
                       //               Typewriter(
                       //                 "เราได้รวมเครื่องมือซื้อขาย ไว้ในระบบเดียวกันให้ภาคส่วนใช้งานอย่างสะดวกง่ายดาย\n"
                       //                 'เพียงท่านล๊อกอินเข้าสู่ระบบด้วยบัญชีแบบใด ท่านจะได้การทำงานตามบัญชีนั้นทันที.\n'
                       //                 'โดยแบ่งเป็นเป็นผู้จำหน่ายส่ง ร้านค้า หรือ สมาชิกร้านค้า.',
-                      //                 animate: !controller.abstractSeen.value,
+                      //                 animate: !c.abstractSeen.value,
                       //                 textStyle: TextStyle(
                       //                   color: Colors.grey,
                       //                   fontSize: 16,
@@ -425,14 +411,14 @@ class LoginPage extends GetView<LoginController> {
                       //                 onEnd: () {
                       //                   Future.delayed(
                       //                       Duration(milliseconds: 500), () {
-                      //                     controller.showHireMe.value = true;
-                      //                     controller.abstractSeen.value = true;
-                      //                     controller.update();
+                      //                     c.showHireMe.value = true;
+                      //                     c.abstractSeen.value = true;
+                      //                     c.update();
                       //                   });
                       //                 },
                       //               ),
                       //             ],
-                      //             if (controller.showHireMe.value) ...[
+                      //             if (c.showHireMe.value) ...[
                       //               SizedBox(height: 30),
                       //               SizedBox(
                       //                 width: 160,
@@ -461,27 +447,6 @@ class LoginPage extends GetView<LoginController> {
               ],
             ),
           )),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-
-    return Scaffold(
-      body: Stack(
-        children: [
-          SizedBox(
-            width: Get.width,
-            height: Get.height,
-            child: desktop(context),
-          ),
-          // Align(
-          //   alignment: Alignment.topCenter,
-          //   child: Navbar(),
-          // ),
-        ],
-      ),
     );
   }
 }

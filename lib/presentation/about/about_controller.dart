@@ -127,6 +127,14 @@ class AboutController extends GetxController with GetTickerProviderStateMixin {
     }
   }
 
+  void infoPop(String title, String msg) {
+    Get.defaultDialog(
+      title: title,
+      titleStyle: const TextStyle(color: Colors.red),
+      middleText: msg,
+    );
+  }
+
   void addMyPhoto() {
     int position = ((visibleRowsCount / 2).floor() * itemsInEachRow) +
         Random().nextInt((itemsInEachRow ~/ 2)) +

@@ -2,17 +2,17 @@ import 'package:com.morepos.morewin/presentation/widgets/common/hero_images.dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:com.morepos.morewin/presentation/home/home_controller.dart';
-import 'dart:html' as html;
-import '../../app/constants/responsive.dart';
+// import 'dart:html' as html;
+// import '../../app/constants/responsive.dart';
 import '../../app/constants/theme_provider.dart';
 import '../../app/util/url_helper.dart';
-import '../route/routes_controller.dart';
+// import '../route/routes_controller.dart';
 import '../widgets/common/home_background_painter.dart';
 import '../widgets/common/nav_bar.dart';
 import '../widgets/common/rounded_button.dart';
-import '../widgets/common/social_media_bar.dart';
+// import '../widgets/common/social_media_bar.dart';
 import '../widgets/common/typewriter.dart';
-import '../widgets/mobile/drawer.dart';
+// import '../widgets/mobile/drawer.dart';
 
 class HomePage extends GetView<HomeController> {
   HomePage();

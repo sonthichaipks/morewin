@@ -61,15 +61,22 @@ class HomeController extends GetxController {
     switch (selectedIndex.value) {
       case 0:
         Get.changeTheme(Themes.themeBlueOrange);
-        HomeBinding().dependencies();
-        Get.toNamed(Routes.homepage);
+        // HomeBinding().dependencies();
+        // Get.toNamed(Routes.homepage);
+        //    Get.changeTheme(Themes.themeOrangeOrange);
+        FirebaseAuth.instance.currentUser != null
+            ? Get.toNamed(Routes.homepage)
+            : Get.toNamed(Routes.loginpage);
 
         break;
       case 1:
-        AboutBinding().dependencies();
-
-        Get.changeTheme(Themes.themeBlackOrange);
-        Get.toNamed(Routes.about);
+        // AboutBinding().dependencies();
+        Get.changeTheme(Themes.themeOrangeOrange);
+        FirebaseAuth.instance.currentUser != null
+            ? Get.toNamed(Routes.homepage)
+            : Get.toNamed(Routes.about);
+        // Get.changeTheme(Themes.themeBlackOrange);
+        // Get.toNamed(Routes.about);
         break;
       case 2:
         goToExperience();
@@ -85,7 +92,7 @@ class HomeController extends GetxController {
       case 4:
         BlogBinding().dependencies();
 
-        Get.changeTheme(Themes.themeBlackOrange);
+        Get.changeTheme(Themes.themeBlueOrange);
         FirebaseAuth.instance.currentUser != null
             ? Get.toNamed(Routes.blog)
             : Get.toNamed(Routes.loginpage);
@@ -99,8 +106,8 @@ class HomeController extends GetxController {
 
       Get.changeTheme(Themes.themePurpleOrange);
       FirebaseAuth.instance.currentUser != null
-          ? Get.toNamed(Routes.loginpage)
-          : Get.toNamed(Routes.experience);
+          ? Get.toNamed(Routes.experience)
+          : Get.toNamed(Routes.loginpage);
     } on FirebaseException {
       Get.toNamed(Routes.loginpage);
     }

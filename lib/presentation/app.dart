@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 // import 'package:get/get_navigation/get_navigation.dart';
-import 'package:com.morepos.morewin/app/constants/themes.dart';
-import 'package:com.morepos.morewin/presentation/home/home_binding.dart';
-import 'package:com.morepos.morewin/presentation/home/home_page.dart';
+// import 'package:com.morepos.morewin/app/constants/themes.dart';
+// import 'package:com.morepos.morewin/presentation/home/home_binding.dart';
+// import 'package:com.morepos.morewin/presentation/home/home_page.dart';
 
 import '../app/constants/theme_provider.dart';
 import '../app/util/web_scroll_behavior.dart';
-import 'login/login_bindng.dart';
-import 'login/login_pages.dart';
+// import 'login/login_bindng.dart';
+// import 'login/login_pages.dart';
 
 // import 'package:momostore/utils/core_package.dart';
 
@@ -51,7 +51,7 @@ class _SplashScreenPage extends State<App> {
       title: "Morepos distributes store",
       getPages: Pages.routes,
       defaultTransition: Transition.native,
-      initialRoute: '/', //Routes.homepage,
+      initialRoute: '/login', //Routes.homepage,
     );
   }
 }
