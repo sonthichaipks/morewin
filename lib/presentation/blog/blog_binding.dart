@@ -7,8 +7,8 @@ import 'blog_controller.dart';
 class BlogBinding extends Bindings {
   @override
   void dependencies() {
+    Get.put(BlogController(Get.find()));
     Get.lazyPut(
         () => FetchUserPostsUseCase(Get.find<MediumPostsRepositoryIml>()));
-    Get.put(BlogController(Get.find()));
   }
 }

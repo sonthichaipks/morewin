@@ -12,6 +12,8 @@ import '../information/information_binding.dart';
 import '../information/information_page.dart';
 import '../login/login_bindng.dart';
 import '../login/login_pages.dart';
+import '../order/orders_binding.dart';
+import '../order/orders_pages.dart';
 import '../projects/projects_page.dart';
 import '../projects/projets_binding.dart';
 
@@ -20,7 +22,7 @@ class Routes {
   static const String homepage = '/';
   static const String about = '/about';
   static const String loginpage = '/login';
-  static const String blog = '/blog';
+  static const String order = '/order';
   static const String inform = '/information';
   static const String experience = '/experience';
   static const String project = '/project';
@@ -45,9 +47,9 @@ class Pages {
       binding: LoginBinding(),
     ),
     GetPage(
-      name: Routes.blog,
-      page: () => BlogPage(),
-      binding: BlogBinding(),
+      name: Routes.order,
+      page: () => OrderPage(),
+      binding: OrderBinding(),
     ),
     GetPage(
       name: Routes.inform,

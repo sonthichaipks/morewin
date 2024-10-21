@@ -37,13 +37,13 @@ class HomeController extends GetxController {
   RxBool showHireMe = false.obs;
   RxBool hovered = false.obs;
 
-  RxList<Widget> pages = [
-    InformationPage(),
-    AboutPage(),
-    FirebaseAuth.instance.currentUser != null ? ExperiencesPage() : LoginPage(),
-    ProjectsPage(),
-    BlogPage()
-  ].obs;
+  // RxList<Widget> pages = [
+  //    FirebaseAuth.instance.currentUser != null ? InformationPage() : LoginPage(),
+  //    FirebaseAuth.instance.currentUser != null ? AboutPage() : LoginPage(),
+  //   FirebaseAuth.instance.currentUser != null ? ExperiencesPage() : LoginPage(),
+  //    FirebaseAuth.instance.currentUser != null ? ProjectsPage() : LoginPage(),
+  //     FirebaseAuth.instance.currentUser != null ? BlogPage() :LoginPage()
+  // ].obs;
 
   var scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -61,9 +61,6 @@ class HomeController extends GetxController {
     switch (selectedIndex.value) {
       case 0:
         Get.changeTheme(Themes.themeBlueOrange);
-        // HomeBinding().dependencies();
-        // Get.toNamed(Routes.homepage);
-        //    Get.changeTheme(Themes.themeOrangeOrange);
         FirebaseAuth.instance.currentUser != null
             ? Get.toNamed(Routes.homepage)
             : Get.toNamed(Routes.loginpage);
@@ -73,16 +70,15 @@ class HomeController extends GetxController {
         // AboutBinding().dependencies();
         Get.changeTheme(Themes.themeOrangeOrange);
         FirebaseAuth.instance.currentUser != null
-            ? Get.toNamed(Routes.homepage)
-            : Get.toNamed(Routes.about);
-        // Get.changeTheme(Themes.themeBlackOrange);
-        // Get.toNamed(Routes.about);
+            ? Get.toNamed(Routes.about)
+            : Get.toNamed(Routes.loginpage);
+
         break;
       case 2:
         goToExperience();
         break;
       case 3:
-        ProjectsBinding().dependencies();
+        // ProjectsBinding().dependencies();
 
         Get.changeTheme(Themes.themeOrangeOrange);
         FirebaseAuth.instance.currentUser != null
@@ -90,11 +86,11 @@ class HomeController extends GetxController {
             : Get.toNamed(Routes.loginpage);
         break;
       case 4:
-        BlogBinding().dependencies();
+        // BlogBinding().dependencies();
 
         Get.changeTheme(Themes.themeBlueOrange);
         FirebaseAuth.instance.currentUser != null
-            ? Get.toNamed(Routes.blog)
+            ? Get.toNamed(Routes.order)
             : Get.toNamed(Routes.loginpage);
         break;
     }

@@ -14,6 +14,8 @@ import '../../domain/repositories/mngdb_repository.dart';
 // import '../providers/network/apis/medium_api.dart';
 import '../models/mngdata/QryTables.dart';
 // import '../providers/network/api_provider.dart';
+import '../models/mngdata/prFormula.dart';
+import '../providers/network/api_provider.dart';
 import '../providers/network/apis/mngdb_api.dart';
 import '../providers/network/้http_api_privider.dart';
 
@@ -47,6 +49,22 @@ class MngdbRepositoryIml extends MngdbPostsRepository {
       // if (_data.code.contains(filter)) {
       data.add(_data);
       // }
+    }
+    return data;
+  }
+  
+  Future<List<PrFormula>> getPrForrmulaBySku(String code) async {
+    String loginurl = ApiPath.getprFormulaSku;
+    loginurl = loginurl.replaceAll('[sku]', code);
+
+    // loginurl = loginurl.replaceAll('[mode]', mode.toString());
+    var temp = await HTTPAPIProvider.instance.get(loginurl);
+    // var temp = await APIProvider.instance.wsList(loginurl);
+    final List<dynamic> res = (temp != null) ? temp : [];
+    // await APIProvider.instance.get(ApiPath.posStation);
+    List<PrFormula> data = [];
+    for (var element in res) {
+      data.add(PrFormula.fromJson(element));
     }
     return data;
   }

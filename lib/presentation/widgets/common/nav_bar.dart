@@ -78,19 +78,11 @@ class Navbar extends GetResponsiveView<HomeController> {
                   children: controller.items.map((item) {
                     return InkWell(
                       onTap: () {
-                        switch (item) {
-                          case 'Help':
-                            break;
-                          default:
-                            controller.selectedIndex.value =
-                                controller.items.indexOf(item);
-
-                            controller.navBarSelectedIndex.value =
-                                controller.items.indexOf(item);
-
-                            controller.onIndexChanged(controller.selectedIndex);
-                            controller.update();
-                            break;
+                        if (item != 'Help') {
+                          controller.selectedIndex.value =
+                              controller.items.indexOf(item);
+                          controller.update();
+                          controller.onIndexChanged(controller.selectedIndex);
                         }
                       },
                       child: item == 'Help'
