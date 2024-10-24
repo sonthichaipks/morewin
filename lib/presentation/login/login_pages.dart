@@ -1,6 +1,10 @@
 // import 'package:dropdown_search/dropdown_search.dart';
+import 'dart:async';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:com.morepos.morewin/app/util/url_helper.dart';
 import 'package:com.morepos.morewin/presentation/widgets/common/rounded_button.dart';
@@ -8,6 +12,7 @@ import 'package:qr_bar_code/qr/qr.dart';
 import 'package:qr_bar_code/qr_bar_code_web.dart';
 import '../../app/constants/theme_provider.dart';
 import '../../data/models/mngdata/QryTables.dart';
+import '../../data/providers/network/firestore_services.dart';
 import '../blog/blog_controller.dart';
 import '../home/home_controller.dart';
 import '../widgets/common/dropdown_template.dart';
@@ -23,8 +28,16 @@ import '../widgets/common/typewriter.dart';
 import 'login_controller.dart';
 
 class LoginPage extends GetView<LoginController> {
-  LoginPage({super.key});
-
+  LoginPage({super.key}){
+    
+    // locationStreamSubscription =
+    //     StreamLocationService.onLocationChanged?.listen(
+    //   (position) async {
+    //     controller.loginlocation = new GeoPoint(position.altitude, position.longitude);
+    //   },
+    // );
+  }
+  // late StreamSubscription<Position>? locationStreamSubscription;
   final formKey = GlobalKey<FormState>();
   final dropDownAprodKeySearch = GlobalKey<DropdownSearchState<PrQryTables>>();
   @override

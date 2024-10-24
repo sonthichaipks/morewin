@@ -1,0 +1,839 @@
+[
+  {
+    "ContainingType": "moreApi.Controllers.DashInfoController",
+    "Method": "Get",
+    "RelativePath": "DashInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.DashBoardInfo, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "DashInfo"
+  },
+  {
+    "ContainingType": "moreApi.Controllers.DashInfoController",
+    "Method": "GetACode",
+    "RelativePath": "DashInfo/{content}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "content",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.DashBoardInfo, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.DashInfoController",
+    "Method": "genNew",
+    "RelativePath": "DashInfo/{menu}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "moreApi.Controllers.DashInfoController",
+    "Method": "CreatePosTranRecv",
+    "RelativePath": "DashInfo/EndMonthProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Menu",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datebegin",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "dateend",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "moreApi.Controllers.FgExpController",
+    "Method": "Get",
+    "RelativePath": "FgExp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.FgExpRcvExpInfoBy, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "FgExp"
+  },
+  {
+    "ContainingType": "moreApi.Controllers.FgExpController",
+    "Method": "GetACode",
+    "RelativePath": "FgExp/{content}/{mode}/{aging}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "content",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "mode",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "aging",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.FgExpRcvExpInfoBy, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.LookupsController",
+    "Method": "Get",
+    "RelativePath": "Lookups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Lup_supp, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "Lookups"
+  },
+  {
+    "ContainingType": "moreApi.Controllers.LookupsController",
+    "Method": "getSupp",
+    "RelativePath": "Lookups/{search}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Lup_supp, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.LookupsController",
+    "Method": "getMpo",
+    "RelativePath": "Lookups/{search}/{a}/{b}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "a",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "b",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Lup_mpo, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.LookupsController",
+    "Method": "getSku",
+    "RelativePath": "Lookups/{search}/{mode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "mode",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Lup_sku, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.LookupsController",
+    "Method": "LookupMpo",
+    "RelativePath": "Lookups/LookupMpo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Lup_mpo, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.LookupsController",
+    "Method": "LookupSku",
+    "RelativePath": "Lookups/LookupSku",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Lup_sku, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.LookupsController",
+    "Method": "LookupSupp",
+    "RelativePath": "Lookups/LookupSupp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Lup_supp, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.MReceiveController",
+    "Method": "Get",
+    "RelativePath": "MReceive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.SumReceiveBySup, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "MReceive"
+  },
+  {
+    "ContainingType": "moreApi.Controllers.MReceiveController",
+    "Method": "getApo",
+    "RelativePath": "MReceive/{days}/{supp}/{cat}/{sku}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "days",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "supp",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "cat",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "sku",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.SumReceiveBySup, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.QryDatumController",
+    "Method": "Get",
+    "RelativePath": "QryDatum",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Qrydatum, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "QryData"
+  },
+  {
+    "ContainingType": "moreApi.Controllers.QryDatumController",
+    "Method": "GetLastCode",
+    "RelativePath": "QryDatum/{1}/{2}/{3}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "1",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "2",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "3",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "moreApi.Model.Qrydatum",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.QryDatumController",
+    "Method": "clearQryAndDetails",
+    "RelativePath": "QryDatum/{1}/{2}/{3}/{4}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "1",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "2",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "3",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "4",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "moreApi.Controllers.QryDatumController",
+    "Method": "addQryData",
+    "RelativePath": "QryDatum/{a}/{menu}/{datebegin}/{dateend}/{goal}/{plan}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "datebegin",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dateend",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "goal",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "plan",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "a",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "moreApi.Controllers.QryDatumController",
+    "Method": "GetNewCode",
+    "RelativePath": "QryDatum/{i}/{a}/{menu}/{datebegin}/{dateend}/{goal}/{plan}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "datebegin",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dateend",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "goal",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "plan",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "i",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "a",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.QrydataDetail, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.QryDatumController",
+    "Method": "GetLikeCode",
+    "RelativePath": "QryDatum/{i}/{qryid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "i",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "qryid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.QrydataDetail, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.QryDatumController",
+    "Method": "GetACode",
+    "RelativePath": "QryDatum/{qryid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qryid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.Qrydatum, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.SalesController",
+    "Method": "GetLikeCode",
+    "RelativePath": "Sales/{mode}/{search}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.GpSalesSumByPluFormula, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.SalesController",
+    "Method": "GetSalesData",
+    "RelativePath": "Sales/{qryid}/{i}/{a}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qryid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "i",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "a",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.GpSalesSumByPluFormula, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.SalesController",
+    "Method": "GetSalesLikeSkuData",
+    "RelativePath": "Sales/{qryid}/{i}/{a}/{sku}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qryid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "i",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "a",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "sku",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.GpSalesSumByPluFormula, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.SalesController",
+    "Method": "GetACode",
+    "RelativePath": "Sales/{search}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.GpSalesSumByPluFormula, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "moreApi.Controllers.SalesController",
+    "Method": "GetSalesLikeSupplierData",
+    "RelativePath": "Sales/{supid}/{mode}/{code}/{a}/{b}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "a",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "b",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[moreApi.Model.GpSalesSumByPluFormula, moreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

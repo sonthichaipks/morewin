@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\momoWS6</_PublishTargetUrl>
+    <History>True|2024-05-11T03:35:19.8574962Z;True|2024-05-11T10:08:43.6511872+07:00;True|2024-05-11T08:36:35.0924673+07:00;True|2023-09-08T22:11:24.3740589+07:00;False|2023-09-08T22:10:35.3892038+07:00;True|2023-09-08T21:32:44.2204651+07:00;False|2023-09-08T21:31:56.4936531+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

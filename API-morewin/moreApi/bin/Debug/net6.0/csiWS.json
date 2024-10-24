@@ -1,0 +1,3411 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "GeniuzPOS Front API",
+    "description": "",
+    "license": {
+      "name": "Production Web site",
+      "url": "https://www.poscsi.com/"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/CsParam": {
+      "get": {
+        "tags": [
+          "CsParam"
+        ],
+        "operationId": "CsParam",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CsParam/{posid}": {
+      "get": {
+        "tags": [
+          "CsParam"
+        ],
+        "parameters": [
+          {
+            "name": "posid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CsParam/{i}/{posid}": {
+      "get": {
+        "tags": [
+          "CsParam"
+        ],
+        "parameters": [
+          {
+            "name": "posid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "i",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vposparam"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CsPlus": {
+      "get": {
+        "tags": [
+          "CsPlus"
+        ],
+        "operationId": "CsPlus",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CsPlus/{id}": {
+      "get": {
+        "tags": [
+          "CsPlus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CsPlus/{i}/{id}": {
+      "get": {
+        "tags": [
+          "CsPlus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "i",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsPlu"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/csSalesman": {
+      "get": {
+        "tags": [
+          "csSalesman"
+        ],
+        "operationId": "PsSalesman",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/csSalesman/{id}": {
+      "get": {
+        "tags": [
+          "csSalesman"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/csSalesman/{i}/{id}": {
+      "get": {
+        "tags": [
+          "csSalesman"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "i",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsSalesman"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ExChange": {
+      "get": {
+        "tags": [
+          "ExChange"
+        ],
+        "operationId": "Vexchange",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vexchange"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vexchange"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vexchange"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ExChange/{id}": {
+      "get": {
+        "tags": [
+          "ExChange"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vexchange"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vexchange"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vexchange"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getActivePosStation": {
+      "get": {
+        "tags": [
+          "getActivePosStation"
+        ],
+        "operationId": "getActivePosStation",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsShop"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsShop"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsShop"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getActivePosStation/{id}": {
+      "get": {
+        "tags": [
+          "getActivePosStation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/getActivePosStation"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/getActivePosStation"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/getActivePosStation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getActivePosStation/{posid}/{cashier}/{serviceip}": {
+      "put": {
+        "tags": [
+          "getActivePosStation"
+        ],
+        "parameters": [
+          {
+            "name": "posid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cashier",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "serviceip",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetPosSignin/{id}": {
+      "get": {
+        "tags": [
+          "GetPosSignin"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetPosSignin/{i}/{posid}/{cashierid}/{password}/{activeshiftid}": {
+      "get": {
+        "tags": [
+          "GetPosSignin"
+        ],
+        "parameters": [
+          {
+            "name": "posid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cashierid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "activeshiftid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "i",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetPosSignin/{i}/{shopid}/{salesdatefm}/{salesdateto}": {
+      "get": {
+        "tags": [
+          "GetPosSignin"
+        ],
+        "parameters": [
+          {
+            "name": "shopid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "salesdatefm",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "salesdateto",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "i",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VgetPosSignin"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetPosTrans/{docno}/{ondate}": {
+      "get": {
+        "tags": [
+          "GetPosTrans"
+        ],
+        "parameters": [
+          {
+            "name": "docno",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ondate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranHd"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranHd"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranHd"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetPosTrans/{H}/{D}/{docno}": {
+      "get": {
+        "tags": [
+          "GetPosTrans"
+        ],
+        "parameters": [
+          {
+            "name": "docno",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "H",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "D",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranDt"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranDt"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranDt"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetPosTrans/{H}/{D}/{1}/{docno}": {
+      "get": {
+        "tags": [
+          "GetPosTrans"
+        ],
+        "parameters": [
+          {
+            "name": "docno",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "H",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "D",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "1",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranDisc"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranDisc"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranDisc"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetPosTrans/{H}/{D}/{1}/{R}/{docno}": {
+      "get": {
+        "tags": [
+          "GetPosTrans"
+        ],
+        "parameters": [
+          {
+            "name": "docno",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "H",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "D",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "1",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "R",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranRecv"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranRecv"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsPosTranRecv"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Member": {
+      "get": {
+        "tags": [
+          "Member"
+        ],
+        "operationId": "Member",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsMember"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsMember"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PsMember"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Member/{mbid}": {
+      "get": {
+        "tags": [
+          "Member"
+        ],
+        "parameters": [
+          {
+            "name": "mbid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsMember"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsMember"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsMember"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Member/{i}/{mbid}": {
+      "get": {
+        "tags": [
+          "Member"
+        ],
+        "parameters": [
+          {
+            "name": "mbid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "i",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsMember"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsMember"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VpsMember"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "getActivePosStation": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "posId": {
+            "type": "string",
+            "nullable": true
+          },
+          "posPermitNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopId": {
+            "type": "string",
+            "nullable": true
+          },
+          "branchName": {
+            "type": "string",
+            "nullable": true
+          },
+          "whsId": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastReceiptRunNo": {
+            "type": "number",
+            "format": "double"
+          },
+          "lastRefundRunNo": {
+            "type": "number",
+            "format": "double"
+          },
+          "cashierPosFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "posScreenType": {
+            "type": "string",
+            "nullable": true
+          },
+          "posTouchPanelId": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxCashInDrawer": {
+            "type": "number",
+            "format": "double"
+          },
+          "autoChargeFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "autoChargeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "mandatorySalesmanFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mandatoryMemberFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cashierId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shiftStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "singInTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nwType": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nw_Ip": {
+            "type": "string",
+            "nullable": true
+          },
+          "nw_Command": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "security_Auth": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "security_Ref1": {
+            "type": "string",
+            "nullable": true
+          },
+          "security_Ref2": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizName": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "telId": {
+            "type": "string",
+            "nullable": true
+          },
+          "faxId": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "regId": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxId": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizType": {
+            "type": "string",
+            "nullable": true
+          },
+          "vatFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taxInvName": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxInvAddrLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxInvAddrLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxInvAddrLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "connectPrinterFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "connectDrawerFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "connectVfdFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "connect2NdDispFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "connectEdcFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "connectRfidReaderFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sellingPriceNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "psParaDefault1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shopLogoOnFrontScreen": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopLogoOnReceipt": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg1": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg2": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg3": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg4": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg5": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg6": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg1": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg2": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg3": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg4": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg5": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg6": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg7": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg8": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg9": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg10": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptNoBarcodeFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "psParaDefault2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "selectSellingPriceFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "receiptPrinterType": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "salesDocFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "salesVatType": {
+            "type": "string",
+            "nullable": true
+          },
+          "ejournalFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noOfRecptCopy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "printOrderFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "printQueueFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemOnRecptMethod": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "recptSumItemQtyFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shopTypeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopGroupId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegName": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopTaxId": {
+            "type": "string",
+            "nullable": true
+          },
+          "chargeVatRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "posProcessMode": {
+            "type": "string",
+            "nullable": true
+          },
+          "weightBarcodePrefix": {
+            "type": "string",
+            "nullable": true
+          },
+          "pointRedeemOneBaht": {
+            "type": "number",
+            "format": "double"
+          },
+          "discRoundMethod": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cashPayRoundMethod": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mbDiscMethod": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "allowSaleOverStock": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "promptPayLink": {
+            "type": "string",
+            "nullable": true
+          },
+          "qrCodeAccount": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsMember": {
+        "type": "object",
+        "properties": {
+          "mbId": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbType": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbNameT": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbNameE": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbProvince": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbAmphur": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbTumbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbZipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbLineAddr1": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbLineAddr2": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbLineAddr3": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbPid": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbTelNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbGender": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbNation": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbRace": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbOccupation": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbBirthDay": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "mbCardType": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbApplyDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "mbExpireDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "mbCardStatus": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mbPhoto": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbAccumPoint": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "mbNearlyExpirePoint": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "mbExpirePointDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "mbMemo": {
+            "type": "string",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updateBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsPosTranDisc": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "docNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineItemNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lineItemType": {
+            "type": "string",
+            "nullable": true
+          },
+          "discPc": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "discAmt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "discCouponType": {
+            "type": "string",
+            "nullable": true
+          },
+          "discCouponNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "promoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "chargePc": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chargeAmt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsPosTranDt": {
+        "type": "object",
+        "properties": {
+          "docNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineItemNo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "lineItemType": {
+            "type": "string",
+            "nullable": true
+          },
+          "refLineItemNo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pluCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "qty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "serialNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "exPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "discPc": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "discamt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "discCouponType": {
+            "type": "string",
+            "nullable": true
+          },
+          "discCouponNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "promoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "chargePc": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chargeAmt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "itemVatType": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemPromoFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemPromoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemDiscount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "itemCharge": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "itemNetExprice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "allocatedBillDiscount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "itemNetSales": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "itemVatRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "itemVat": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updateBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "itemDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "qtyRefund": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsPosTranHd": {
+        "type": "object",
+        "properties": {
+          "docNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "docDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "docTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "refDocNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "posId": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashierId": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbId": {
+            "type": "string",
+            "nullable": true
+          },
+          "salesmanId": {
+            "type": "string",
+            "nullable": true
+          },
+          "salesVatType": {
+            "type": "string",
+            "nullable": true
+          },
+          "factor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "grossSales": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "allItemDiscount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "allItemCharge": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "billDiscount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "netSales": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "billCharge": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "docAmt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "vat": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "roundAdjust": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "netSalesNormal": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "netSalesPromo": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "netSalesExVat": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "netSalesNonVat": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "vatOfNetSales": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "vatOfCharge": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receiveCash": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receiveCreditCd": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receiveDebitCd": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receiveCoupon": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receiveCashCd": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receivePoint": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receiveOthers": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updateBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsPosTranRecv": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "docNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "lineItemNo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "paymentType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "receiptAmt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "refType": {
+            "type": "string",
+            "nullable": true
+          },
+          "refNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "pointBurn": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "currencyCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencyAmt": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "exchangeRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updateBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsSalesman": {
+        "type": "object",
+        "properties": {
+          "salesmanId": {
+            "type": "string",
+            "nullable": true
+          },
+          "salesmanName": {
+            "type": "string",
+            "nullable": true
+          },
+          "salesmanGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updateBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PsShop": {
+        "type": "object",
+        "properties": {
+          "shopId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopTypeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopGroupId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopName": {
+            "type": "string",
+            "nullable": true
+          },
+          "branchName": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegName": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopTaxId": {
+            "type": "string",
+            "nullable": true
+          },
+          "promptPayLink": {
+            "type": "string",
+            "nullable": true
+          },
+          "qrcodeAccount": {
+            "type": "string",
+            "nullable": true
+          },
+          "createBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updateBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Vexchange": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "currencyCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "effectiveDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "exchangeRate": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VgetPosSignin": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "cashierId": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashierName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashierPassword": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashierLevel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "shopId": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashierPosFg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "singInDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "singInTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "singOutDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "singOutTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "shiftStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "posId": {
+            "type": "string",
+            "nullable": true
+          },
+          "startReceiptNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "endReceiptNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "startRefundNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "endRefundNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "begCash": {
+            "type": "number",
+            "format": "double"
+          },
+          "cashIn": {
+            "type": "number",
+            "format": "double"
+          },
+          "cashOut": {
+            "type": "number",
+            "format": "double"
+          },
+          "cashSales": {
+            "type": "number",
+            "format": "double"
+          },
+          "roundReceive": {
+            "type": "number",
+            "format": "double"
+          },
+          "cashBalance": {
+            "type": "number",
+            "format": "double"
+          },
+          "grossAmt": {
+            "type": "number",
+            "format": "double"
+          },
+          "deiscount": {
+            "type": "number",
+            "format": "double"
+          },
+          "netSales": {
+            "type": "number",
+            "format": "double"
+          },
+          "charge": {
+            "type": "number",
+            "format": "double"
+          },
+          "recvByCash": {
+            "type": "number",
+            "format": "double"
+          },
+          "recvByCoupon": {
+            "type": "number",
+            "format": "double"
+          },
+          "recvByCreditCd": {
+            "type": "number",
+            "format": "double"
+          },
+          "recvByDebitCd": {
+            "type": "number",
+            "format": "double"
+          },
+          "recvByPoint": {
+            "type": "number",
+            "format": "double"
+          },
+          "recvByCashCd": {
+            "type": "number",
+            "format": "double"
+          },
+          "recvByOthers": {
+            "type": "number",
+            "format": "double"
+          },
+          "countVoid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "countCancel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "countOpenDrawer": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "countCashIn": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "countCashOut": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "countRefund": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "totalVoidAmt": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalCashInAmt": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalCashOutamt": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalRefundAmt": {
+            "type": "number",
+            "format": "double"
+          },
+          "posshiftID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "promptPayLink": {
+            "type": "string",
+            "nullable": true
+          },
+          "qrCodeAccount": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Vposparam": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "bizName": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "telId": {
+            "type": "string",
+            "nullable": true
+          },
+          "faxId": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "regId": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxId": {
+            "type": "string",
+            "nullable": true
+          },
+          "bizType": {
+            "type": "string",
+            "nullable": true
+          },
+          "vatFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "taxInvName": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxInvAddrLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxInvAddrLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "taxInvAddrLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "posId": {
+            "type": "string",
+            "nullable": true
+          },
+          "posPermitNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopId": {
+            "type": "string",
+            "nullable": true
+          },
+          "whsId": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastReceiptRunNo": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "lastRefundRunNo": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cashierPosFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "posScreenType": {
+            "type": "string",
+            "nullable": true
+          },
+          "posTouchPanelId": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxCashInDrawer": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "autoChargeFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "autoChargeRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "mandatorySalesmanFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mandatoryMemberFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "connectPrinterFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "connectDrawerFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "connectVfdfg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "connect2ndDispFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "connectEdcfg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "connectRfidreaderFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sellingPriceNo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "psParaDefault1": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "shopLogoOnFrontScreen": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopLogoOnReceipt": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg1": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg2": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg3": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg4": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg5": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptHeadMesg6": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg1": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg2": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg3": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg4": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg5": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg6": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg7": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg8": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg9": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptFootMesg10": {
+            "type": "string",
+            "nullable": true
+          },
+          "recptNoBarcodeFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "psParaDefault2": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "selectSellingPriceFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "receiptPrinterType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "salesDocFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "salesVatType": {
+            "type": "string",
+            "nullable": true
+          },
+          "ejournalFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "noOfRecptCopy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "printOrderFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "printQueueFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemOnRecptMethod": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "recptSumItemQtyFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "shopTypeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopGroupId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopName": {
+            "type": "string",
+            "nullable": true
+          },
+          "branchName": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegName": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopRegId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shopTaxId": {
+            "type": "string",
+            "nullable": true
+          },
+          "chargeVatRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "posProcessMode": {
+            "type": "string",
+            "nullable": true
+          },
+          "weightBarcodePrefix": {
+            "type": "string",
+            "nullable": true
+          },
+          "pointRedeemOneBaht": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "discRoundMethod": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "cashPayRoundMethod": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mbDiscMethod": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "allowSaleOverStock": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "promptPayLink": {
+            "type": "string",
+            "nullable": true
+          },
+          "qrcodeAccount": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VpsMember": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mbId": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbType": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbNameT": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbNameE": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbProvince": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbAmphur": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbTumbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbZipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbLineAddr1": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbLineAddr2": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbLineAddr3": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbPid": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbTelNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbGender": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbNation": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbRace": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbOccupation": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbBirthDay": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "mbCardType": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbApplyDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "mbExpireDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "mbCardStatus": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mbPhoto": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbAccumPoint": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "mbNearlyExpirePoint": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "mbExpirePointDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "memberTypeDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "mbDiscPs": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sellUnitPriceNo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mbPriceFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VpsPlu": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "articleCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "skuCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "pluCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "pluIntCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "pluDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "pluShortDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "styleId": {
+            "type": "string",
+            "nullable": true
+          },
+          "colorId": {
+            "type": "string",
+            "nullable": true
+          },
+          "sizeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "tasteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "matTypeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "sellUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "sellUnitRatio": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sellUnitPrice1": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sellUnitPrice2": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sellUnitPrice3": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sellUnitPrice4": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sellUnitPrice5": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sellUnitPrice6": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "deliverCost": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "articleStyle": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "vatType": {
+            "type": "string",
+            "nullable": true
+          },
+          "vatRateCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "qtyOnHand": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "stockFg": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "allowSaleOverStock": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mbDiscMethod": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mbDiscPs": {
+            "type": "number",
+            "format": "double"
+          },
+          "sellUnitPriceNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mbPriceFg": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

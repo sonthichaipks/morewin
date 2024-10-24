@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\MmApi</_PublishTargetUrl>
+    <History>True|2024-05-09T12:57:35.4414990Z;True|2024-05-09T14:48:54.3044790+07:00;False|2024-05-09T14:48:15.2964194+07:00;True|2024-05-08T12:28:20.0929543+07:00;False|2024-05-08T12:27:47.5941773+07:00;True|2024-05-07T20:47:34.3735706+07:00;True|2024-05-07T19:32:31.4741743+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

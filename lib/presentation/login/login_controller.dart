@@ -5,11 +5,14 @@ import 'package:com.morepos.morewin/data/models/login_byuser.dart';
 import 'package:either_dart/either.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/widgets.dart';
+import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
 import 'package:dart_ipify/dart_ipify.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:uuid/uuid.dart';
 import '../../app/constants/core_package.dart';
 import '../../data/models/mngdata/QryTables.dart';
+import '../../data/providers/network/firestore_services.dart';
 import '../../data/repositories/mngdb_repository_impl.dart';
 import '../../domain/entities/mngdb_posts_response.dart';
 import '../../domain/usecases/mng_db_use_case.dart';
@@ -23,8 +26,27 @@ class LoginController extends GetxController with GetTickerProviderStateMixin {
 
   init(BuildContext context) {
     tcontext = context;
+
+    // _loginlocation.onLocationChanged.listen((LocationData currentLocation) {
+    //   _loginlocation = new Location();
+
+    // locationStreamSubscription =
+    //     StreamLocationService.onLocationChanged?.listen(
+    //   (position) async {
+    //     _loginlocation = new GeoPoint(position.altitude, position.longitude);
+    //   },
+    // );
+    // locationStreamSubscription?.init();
   }
 
+  // late StreamSubscription<Position>? locationStreamSubscription;
+
+// final homeTabPageStreamSubscription = Geolocator (Position position) {
+// currentPosition = position;
+// Geofire.setLocation(currentfirebaseUser.uid, position.latitude, position.longitude);};
+//   }
+
+  late GeoPoint loginlocation;
   late BuildContext tcontext;
   final totalRepo = MngdbRepositoryIml();
 
@@ -95,6 +117,7 @@ class LoginController extends GetxController with GetTickerProviderStateMixin {
       listUser = [];
       if (FirebaseAuth.instance.currentUser != null) {
         getClientIp();
+
         listUser.add(Login(
             userId: 1,
             username: emailController.text,
@@ -106,6 +129,10 @@ class LoginController extends GetxController with GetTickerProviderStateMixin {
             isActive: 1));
         userLogin = listUser[0];
         //selectedIndex = 0;
+        // try {
+        //   await locationStreamSubscription?.init();
+        // } catch (e) {}
+
         update();
 
         uploadWhoLogin(userLogin.displayName);
@@ -173,24 +200,37 @@ class LoginController extends GetxController with GetTickerProviderStateMixin {
     return true;
   }
 
-  late GeoPoint currentPosition;
+  // late GeoPoint currentPosition;
+  // late Geolocator curLocation;
+  // Future<void> getCurrentPosition() async {
+  //   final hasPermission = await _handleLocationPermission();
+  //   if (!hasPermission) return;
+  //   await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high)
+  //       .then((Position position) {
+  //     // setState(() =>
+  //     currentPosition = GeoPoint(position.latitude, position.longitude);
+  //   }).catchError((e) {
+  //     currentPosition = const GeoPoint(0, 0);
+  //     // debugPrint(e);
+  //   });
+  // }
+
   Future<void> getCurrentPosition() async {
-    final hasPermission = await _handleLocationPermission();
-    if (!hasPermission) return;
-    await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high)
-        .then((Position position) {
-      // setState(() =>
-      currentPosition = GeoPoint(position.latitude, position.longitude);
-    }).catchError((e) {
-      currentPosition = const GeoPoint(0, 0);
-      // debugPrint(e);
-    });
+    final position = await Geolocator.getCurrentPosition(
+        desiredAccuracy: LocationAccuracy.high);
+    // currentPosition = position;
+    // currentPosition = GeoPoint(position.latitude, position.longitude);
+    loginlocation = GeoPoint(position.latitude, position.longitude);
+    // return position;
   }
 
   Future<void> uploadWhoLogin(String loginname) async {
     try {
+      // locationStreamSubscription?.init();
       await getClientIp();
+      await getCurrentPosition();
       final id = const Uuid().v4();
+
       // var currentLocation = Geolocator.getCurrentPosition();
       // Position position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
       await FirebaseFirestore.instance
@@ -201,8 +241,8 @@ class LoginController extends GetxController with GetTickerProviderStateMixin {
         "favoriteratio": 5,
         "logintime": FieldValue.serverTimestamp(),
         "logouttime": FieldValue.serverTimestamp(),
-        "wherelogin": GeoPoint(0, 0),
-        "wherelogout": GeoPoint(0, 0),
+        "wherelogin": loginlocation,
+        "wherelogout": loginlocation,
         "whologin": loginname,
         "loginip": ipv4,
         "id": id,
@@ -322,5 +362,21 @@ class LoginController extends GetxController with GetTickerProviderStateMixin {
     // final ipv4json = await Ipify.ipv64(format: Format.JSON);
     // print(
     //     ipv4json); //{"ip":"98.207.254.136"} or {"ip":"2a00:1450:400f:80d::200e"}
+  }
+}
+
+extension on StreamSubscription<Position>? {
+  static const LocationSettings _locationSettings =
+      LocationSettings(distanceFilter: 1);
+  static bool _isLocationGranted = false;
+  Future<void> init() async {
+    if (askLocationPermission == true) {
+      Geolocator.getPositionStream(locationSettings: _locationSettings);
+    }
+  }
+
+  static Future<bool> askLocationPermission() async {
+    _isLocationGranted = await Permission.location.request().isGranted;
+    return _isLocationGranted;
   }
 }

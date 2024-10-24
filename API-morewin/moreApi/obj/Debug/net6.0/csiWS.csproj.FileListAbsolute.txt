@@ -1,0 +1,862 @@
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\appsettings.Development.json
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\appsettings.json
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\csiWS.exe
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\csiWS.deps.json
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\csiWS.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\csiWS.pdb
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CopyComplete
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.dll
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.pdb
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+C:\G\nWorker\csiWS\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Azure.Core.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Humanizer.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\G\nWorker\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\appsettings.Development.json
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\appsettings.json
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\csiWS.exe
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\csiWS.deps.json
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\csiWS.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\csiWS.pdb
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Azure.Core.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Humanizer.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CopyComplete
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.dll
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.pdb
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+C:\CityDev\csiWS\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\appsettings.Development.json
+C:\G\csiWS\csiWS\bin\Debug\net6.0\appsettings.json
+C:\G\csiWS\csiWS\bin\Debug\net6.0\csiWS.exe
+C:\G\csiWS\csiWS\bin\Debug\net6.0\csiWS.deps.json
+C:\G\csiWS\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+C:\G\csiWS\csiWS\bin\Debug\net6.0\csiWS.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\csiWS.pdb
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Azure.Core.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Humanizer.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\G\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\G\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+C:\G\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+C:\G\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+C:\G\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+C:\G\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+C:\G\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+C:\G\csiWS\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CopyComplete
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.dll
+C:\G\csiWS\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.pdb
+C:\G\csiWS\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+C:\G\csiWS\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Web.Razor.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.Data.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.WebData.dll
+C:\CityDev\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Web.Razor.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.Data.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.WebData.dll
+C:\G\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\citydev\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\citydev\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+C:\citydev\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+C:\citydev\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+C:\citydev\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\appsettings.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\csiWS.exe
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\csiWS.deps.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\csiWS.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\csiWS.pdb
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Humanizer.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.Data.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.WebData.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CopyComplete
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.pdb
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+C:\Users\repla\Downloads\New folder (7)\csiWS\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\appsettings.Development.json
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\appsettings.json
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\csiWS.exe
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\csiWS.deps.json
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\csiWS.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\csiWS.pdb
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Azure.Core.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Humanizer.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Web.Razor.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.Data.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.WebData.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\citydev\MAX070923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CopyComplete
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.dll
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.pdb
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+C:\citydev\MAX070923\csiWS\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\appsettings.Development.json
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\appsettings.json
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\csiWS.exe
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\csiWS.deps.json
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\csiWS.pdb
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Azure.Core.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Humanizer.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Web.Razor.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.Data.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\WebMatrix.WebData.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CopyComplete
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.pdb
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+D:\Flutter\csiWS-newEF-9923\csiWS\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\appsettings.Development.json
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\appsettings.json
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\csiWS.exe
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\csiWS.deps.json
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\csiWS.pdb
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Azure.Core.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Humanizer.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Web.Razor.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\WebMatrix.Data.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\WebMatrix.WebData.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.csproj.CopyComplete
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.pdb
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+D:\Flutter\csiWS-newEF-9923\csiWS_New\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+C:\mpdev\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\mpdev\csiWS\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\mpdev\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\mpdev\csiWS\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\mpdev\csiWS\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\mpdev\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\mpdev\csiWS\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\mpdev\csiWS\bin\Debug\net6.0\appsettings.Development.json
+C:\mpdev\csiWS\bin\Debug\net6.0\appsettings.json
+C:\mpdev\csiWS\bin\Debug\net6.0\csiWS.exe
+C:\mpdev\csiWS\bin\Debug\net6.0\csiWS.deps.json
+C:\mpdev\csiWS\bin\Debug\net6.0\csiWS.runtimeconfig.json
+C:\mpdev\csiWS\bin\Debug\net6.0\csiWS.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\csiWS.pdb
+C:\mpdev\csiWS\bin\Debug\net6.0\Azure.Core.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Azure.Identity.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Humanizer.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Web.Razor.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\WebMatrix.Data.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\WebMatrix.WebData.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.CodeDom.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Memory.Data.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Text.Json.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\mpdev\csiWS\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\mpdev\csiWS\obj\Debug\net6.0\staticwebassets.build.json
+C:\mpdev\csiWS\obj\Debug\net6.0\staticwebassets.development.json
+C:\mpdev\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\mpdev\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+C:\mpdev\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+C:\mpdev\csiWS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+C:\mpdev\csiWS\obj\Debug\net6.0\staticwebassets.pack.json
+C:\mpdev\csiWS\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.csproj.Up2Date
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.dll
+C:\mpdev\csiWS\obj\Debug\net6.0\refint\csiWS.dll
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.pdb
+C:\mpdev\csiWS\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+C:\mpdev\csiWS\obj\Debug\net6.0\ref\csiWS.dll
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.csproj.AssemblyReference.cache
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.AssemblyInfoInputs.cache
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.AssemblyInfo.cs
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.csproj.CoreCompileInputs.cache
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.dll
+C:\mpdev\momoApi\obj\Debug\net6.0\refint\csiWS.dll
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.pdb
+C:\mpdev\momoApi\bin\Debug\net6.0\appsettings.Development.json
+C:\mpdev\momoApi\bin\Debug\net6.0\appsettings.json
+C:\mpdev\momoApi\bin\Debug\net6.0\csiWS.exe
+C:\mpdev\momoApi\bin\Debug\net6.0\csiWS.deps.json
+C:\mpdev\momoApi\bin\Debug\net6.0\csiWS.runtimeconfig.json
+C:\mpdev\momoApi\bin\Debug\net6.0\csiWS.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\csiWS.pdb
+C:\mpdev\momoApi\bin\Debug\net6.0\Azure.Core.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Azure.Identity.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Humanizer.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Web.Razor.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Web.Helpers.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\WebMatrix.Data.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\WebMatrix.WebData.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.CodeDom.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Memory.Data.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Text.Json.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\mpdev\momoApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\mpdev\momoApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\mpdev\momoApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\mpdev\momoApi\obj\Debug\net6.0\staticwebassets\msbuild.csiWS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\mpdev\momoApi\obj\Debug\net6.0\staticwebassets\msbuild.build.csiWS.props
+C:\mpdev\momoApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.csiWS.props
+C:\mpdev\momoApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.csiWS.props
+C:\mpdev\momoApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\mpdev\momoApi\obj\Debug\net6.0\scopedcss\bundle\csiWS.styles.css
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.csproj.Up2Date
+C:\mpdev\momoApi\obj\Debug\net6.0\csiWS.genruntimeconfig.cache
+C:\mpdev\momoApi\obj\Debug\net6.0\ref\csiWS.dll
